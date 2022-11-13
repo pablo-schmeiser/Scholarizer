@@ -86,6 +86,8 @@ Here your Project could be described
 * [![Spring][Spring.com]][Spring-url]
 * [![TypeScript][TS.com]][TS-url]
 * [![SonarLint][Sonar.com]][Sonar-url]
+* [![IntelliJ][IntelliJ.com]][IntelliJ-url]
+* [![WebStorm][WebStorm.com]][WebStorm-url]
 
 
 
@@ -236,3 +238,7 @@ Project Link: [https://github.com/pablo-schmeiser/Scholarizer](https://github.co
 [Spring-url]: https://spring.io/
 [Sonar.com]: https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=sonarlint&logoColor=white
 [Sonar-url]: https://www.sonarsource.com/products/sonarlint/
+[IntelliJ.com]: https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white
+[IntelliJ-url]: https://www.jetbrains.com/idea/
+[WebStorm.com]: https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=WebStorm&logoColor=white
+[WebStorm-url]: https://www.jetbrains.com/webstorm/
