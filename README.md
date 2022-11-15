@@ -80,7 +80,6 @@ Here your Project could be described
 
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 * [![Java][Java.com]][Java-url]
 * [![Material-UI][MUI.com]][MUI-url]
 * [![Spring][Spring.com]][Spring-url]
@@ -226,8 +225,6 @@ Project Link: [https://github.com/pablo-schmeiser/Scholarizer](https://github.co
 [React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com
 [TS.com]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 [TS-url]: https://www.typescriptlang.org/
 [MUI.com]: https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white
