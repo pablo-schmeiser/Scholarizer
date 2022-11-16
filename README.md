@@ -119,9 +119,9 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-3. Enter your API Key in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Enter your API Key in `config.json`
+   ```json
+   {"API_KEY": "YOUR API KEY"}
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
