@@ -1,0 +1,33 @@
+@startuml
+
+component "Controller" {
+    port modelInterface as mI
+    port viewInterface as vI
+
+    component [SearchBarController] as sb_con
+    vI --> sb_con : validate HTTP request
+    sb_con --> mI : send request
+
+    component [AccountController] as acc_con
+    vI --> acc_con : validate login/-out request
+    acc_con --> mI : send login request
+    acc_con --> vI : send login/-out response
+
+    component [BookmarkController] as bookm_con
+    vI --> bookm_con : validate user status
+    bookm_con --> mI : send bookmark request
+
+
+}
+
+component "Model"
+component "View"
+
+Model --> View
+mI --> Model
+View --> HTTP
+JSON --> View
+HTTP --> vI : GET
+vI --> JSON : send results
+
+@enduml
