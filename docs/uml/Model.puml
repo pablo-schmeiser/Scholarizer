@@ -1,0 +1,45 @@
+/'
+author: Tim
+'/
+@startuml
+
+Component Model {
+    Component "Database \nCommunication" as DBC
+    Component "Calculation" as C
+    Component "Data Formatting" as DF
+
+    () "modified data" as MF
+    () "author and \npaper data" as APD
+}
+
+Component Databases {
+    Database IEEEXplore as IEEE
+    Database "User profiles" as UP
+    Database "Semantic Scholar" as SS
+}
+
+() "IEEEXplore API" as IAPI
+() "Semantic Scholar API" as SAPI
+() "User profile API" as UAPI
+() "Formatted Data" as FD
+
+'provided Interfaces
+IEEE -up- IAPI
+UP -up- UAPI
+SS -up- SAPI
+DBC -left- APD
+C -up- MF
+DF -right- FD
+
+'required Interfaces
+DBC .down.> IAPI : get papers \n and authors
+DBC .down.> SAPI : get papers \n and authors
+DBC .down.> UAPI : get/send \nuser data
+C .right.> APD : use
+DF .left.> MF : use
+DF ..> APD : use
+
+'formatting
+DBC -[hidden]up- DF
+
+@enduml
