@@ -3,6 +3,8 @@ author: Tim
 '/
 @startuml
 
+!include style.puml
+
 Component Model {
     Component "Database \nCommunication" as DBC
     Component "Calculation" as C
