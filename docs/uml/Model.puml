@@ -47,7 +47,8 @@ iapi .down.> IAPI : get papers \n and authors
 sapi .down.> SAPI : get papers \n and authors
 uapi .down.> UAPI : get/send \nuser data
 C .right.> APD : use
-C .up.> iplug: plugin index calc
+C .up.> iplug : plugin index calc
+DF .up.> iplug : plugin index format
 DF .left.> MF : use
 DF ..> APD : use
 
