@@ -12,6 +12,8 @@ Component Model {
     () "author and \npaper data" as APD
 
     port " " as fd
+    'interface to add new indices
+    portin "index plugin" as iplug
     portin " " as iapi
     portin " " as sapi
     portin " " as uapi
@@ -45,8 +47,10 @@ iapi .down.> IAPI : get papers \n and authors
 sapi .down.> SAPI : get papers \n and authors
 uapi .down.> UAPI : get/send \nuser data
 C .right.> APD : use
+C .up.> iplug: plugin index calc
 DF .left.> MF : use
 DF ..> APD : use
+
 
 'formatting
 DBC -[hidden]down- DF
