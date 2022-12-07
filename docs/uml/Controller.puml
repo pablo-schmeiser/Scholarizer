@@ -1,5 +1,7 @@
 @startuml
 
+!include style.puml
+
 component "Controller" {
     portin  searchRequestPort as sReqP
     portout searchResponsePort as sResP

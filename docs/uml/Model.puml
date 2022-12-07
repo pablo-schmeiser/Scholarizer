@@ -61,17 +61,17 @@ Database "Semantic Scholar" as SS
 
 'external provided Interfaces
 im -up- IM
-IEEE -up- IAPI
-UP -up- UAPI
-SS -up- SAPI
+IEEE -down- IAPI
+UP -down- UAPI
+SS -down- SAPI
 
 'external ports
 
 'external required Interfaces
 
-iapi ----( IAPI : get papers \n and authors
-sapi -down-( SAPI : get papers \n and authors
-uapi -down-( UAPI : get/send \nuser data
+iapi -up-( IAPI : get papers \nand authors
+sapi -up-( SAPI : get papers \nand authors
+uapi -up-( UAPI : get/send \nuser data
 
 
 'formatting
