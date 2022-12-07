@@ -7,10 +7,8 @@
 () "User"
 
 '/Alignment Interfaces
-"Search" -[hidden]up- View
-"Navigate\nthrough\npages" -[hidden]up- View
-"User" -[hidden]up- View
-
+"Search" -[hidden]down- "Navigate\nthrough\npages"
+"Navigate\nthrough\npages" -[hidden]down- "User"
 
 Component View {
 '/Components
@@ -39,11 +37,24 @@ Component View {
     SEn -[hidden]right- Navi
     Navi -[hidden]right- Auth
 
-'/Relations
+'/Relations LandingPage
+    LandP -> SEn
+    SEn -( "Search"
+    LandP -> Navi
+    Navi -( "User"
+    "User" -> Auth
 
+'/Relations Author Profile
+    AutPro -> SEn
+    AutPro -> Navi
 
+'/Relations User Profile
+    UsPro -> SEn
+    UsPro -> Navi
 
-
+'/Relations Recommended Page
+    RecP -> SEn
+    RecP -> Navi
 
 }
 
