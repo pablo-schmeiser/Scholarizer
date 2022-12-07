@@ -23,31 +23,31 @@ Component Model {
     portin " " as uapi
 
     'model intern provided interfaces
-    DBC -left- APD
-    C -up- MD
+    DBC #-left- APD
+    C #-up- MD
 
     'interfaces provided to ModelFacade
-    C -up- ICalc
-    DF -- IDataFormat
-    DBC -- IDBCommunication
+    C #-up- ICalc
+    DF #-- IDataFormat
+    DBC #-- IDBCommunication
 
     'model intern port connections
     MF <- im : <<delegate>>
-    DBC -> iapi : <<delegate>>
-    DBC -> sapi : <<delegate>>
-    DBC -> uapi : <<delegate>>
+    DBC #-> iapi : <<delegate>>
+    DBC #-> sapi : <<delegate>>
+    DBC #-> uapi : <<delegate>>
     C .up.> iplug : plugin index calc
     DF .up.> iplug : plugin index format
 
     'model intern required interfaces
-    C -right-( APD : use
-    DF -left-( MD : use
-    DF --( APD : use
+    C #-right-( APD : use
+    DF #-left-( MD : use
+    DF #--( APD : use
 
     'ModelFacade required interfaces
-    MF -down-( ICalc : use
-    MF -down-( IDBCommunication : use
-    MF -down-( IDataFormat : use
+    MF #-down-( ICalc : use
+    MF #-down-( IDBCommunication : use
+    MF #-down-( IDataFormat : use
 }
 
 Database "IEEEXplore" as IEEE
