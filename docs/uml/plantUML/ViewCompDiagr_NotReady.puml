@@ -1,0 +1,61 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+'/Interfaces
+() "Search"
+() "Navigate\nthrough\npages"
+() "User"
+
+'/Alignment Interfaces
+"Search" -[hidden]down- "Navigate\nthrough\npages"
+"Navigate\nthrough\npages" -[hidden]down- "User"
+
+Component View {
+'/Components
+    Component "Landing Page" as LandP
+    Component "Search Results" as SRes
+    Component "Author Comparison" as AutComp
+    Component "Author Profile" as AutPro
+    Component "User Profile" as UsPro
+    Component "Recommended Page" as RecP
+
+    Component "Search Engine" as SEn
+    Component "Navigation Tab" as Navi
+    Component "Authentication" as Auth
+
+'/Ports
+
+'/Top layer alignment
+    LandP -[hidden]right- SRes
+    SRes -[hidden]right- AutComp
+    AutComp -[hidden]right- AutPro
+    AutPro -[hidden]right- UsPro
+    UsPro -[hidden]right- RecP
+
+'/Down layer alignment
+    SRes -[hidden]down- SEn
+    SEn -[hidden]right- Navi
+    Navi -[hidden]right- Auth
+
+'/Relations LandingPage
+    LandP -> SEn
+    SEn -( "Search"
+    LandP -> Navi
+    Navi -( "User"
+    "User" -> Auth
+
+'/Relations Author Profile
+    AutPro -> SEn
+    AutPro -> Navi
+
+'/Relations User Profile
+    UsPro -> SEn
+    UsPro -> Navi
+
+'/Relations Recommended Page
+    RecP -> SEn
+    RecP -> Navi
+
+}
+
+@enduml

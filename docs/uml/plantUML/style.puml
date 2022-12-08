@@ -1,0 +1,6 @@
+
+'straight lines
+'skinparam linetype ortho
+
+'cornery lines
+skinparam linetype polyline

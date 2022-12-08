@@ -1,0 +1,47 @@
+@startuml
+
+!include style.puml
+
+component "Controller" {
+    portin  searchRequestPort as sReqP
+    portout searchResponsePort as sResP
+    port searchParsePort as sParseP
+    portin loginPort as loginP
+    port loginParsePort as loginParseP
+    portin logoutPort as logoutP
+    portin bookmarkRequestPort as bookmReqP
+    port bookmarkParsePort as bookmParseP
+
+
+    component [SearchRequestController] as sr_con
+    sReqP --> sr_con : <<delegate>>
+    sr_con --> sResP : <<delegate>>
+    sr_con <--> sParseP : <<delegate>>
+
+    component [AccountController] as acc_con
+    loginP <--> acc_con : <<delegate>>
+    acc_con <--> loginParseP : <<delegate>>
+
+    component [BookmarkController] as bookm_con
+    bookmReqP --> bookm_con : <<delegate>>
+    bookm_con <--> bookmParseP : <<delegate>>
+
+
+}
+component Model
+Model --( SearchInterface
+sParseP -- SearchInterface
+
+Model --( SQLRequestInterface
+loginParseP -- SQLRequestInterface
+
+
+component View
+
+View -- HTTP
+sReqP --( HTTP: GET \lPOST \lPUT \lDELETE
+loginP -- HTTP: POST
+
+View --( JSON
+sResP -- JSON
+@enduml

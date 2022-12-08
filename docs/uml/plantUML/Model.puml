@@ -1,0 +1,85 @@
+/'
+author: Tim
+'/
+@startuml
+
+!include style.puml
+
+Component Model {
+    Component "Database \nCommunication" as DBC
+    Component "Calculation" as C
+    Component "Data Formatting" as DF
+    Component "ModelFacade" as MF
+
+    () "modified data" as MD
+    () "author and \npaper data" as APD
+
+    port " " as im
+    'interface to add new indices
+    portin "index plugin" as iplug
+
+    portin " " as iapi
+    portin " " as sapi
+    portin " " as uapi
+
+    'model intern provided interfaces
+    DBC #-left- APD
+    C #-up- MD
+
+    'interfaces provided to ModelFacade
+    C #-up- ICalc
+    DF #-- IDataFormat
+    DBC #-- IDBCommunication
+
+    'model intern port connections
+    MF <- im : <<delegate>>
+    DBC #-> iapi : <<delegate>>
+    DBC #-> sapi : <<delegate>>
+    DBC #-> uapi : <<delegate>>
+    C .up.> iplug : plugin index calc
+    DF .up.> iplug : plugin index format
+
+    'model intern required interfaces
+    C #-right-( APD : use
+    DF #-left-( MD : use
+    DF #--( APD : use
+
+    'ModelFacade required interfaces
+    MF #-down-( ICalc : use
+    MF #-down-( IDBCommunication : use
+    MF #-down-( IDataFormat : use
+}
+
+Database "IEEEXplore" as IEEE
+Database "User profiles" as UP
+Database "Semantic Scholar" as SS
+
+() "IEEEXplore API" as IAPI
+() "Semantic Scholar API" as SAPI
+() "User profile API" as UAPI
+() "IModel" as IM
+
+'external provided Interfaces
+im -up- IM
+IEEE -down- IAPI
+UP -down- UAPI
+SS -down- SAPI
+
+'external ports
+
+'external required Interfaces
+
+iapi -up-( IAPI : get papers \nand authors
+sapi -up-( SAPI : get papers \nand authors
+uapi -up-( UAPI : get/send \nuser data
+
+
+'formatting
+DBC -[hidden]down- DF
+DBC -[hidden]down- C
+DBC -[hidden]left- APD
+C -[hidden]down- MD
+DF -[hidden]right- MD
+C -[hidden]right- APD
+
+@enduml
