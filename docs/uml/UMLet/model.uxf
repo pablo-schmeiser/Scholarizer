@@ -1,1 +1,42 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level></diagram>
+<diagram program="umletino" version="15.0.0"><zoom_level>8</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLGeneric</id><coordinates><x>96</x><y>224</y><w>576</w><h>328</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;subsystem&gt;&gt;
+Model</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>144</x><y>272</y><w>160</w><h>56</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Controller
+!!See Comment in Properties!!
+//This could very well be the "big controller" that Pablo madeso that the model only contains 3 components that "talk" to the controller through the shown interfaces </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>848</x><y>232</y><w>160</w><h>80</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;database&gt;&gt;
+User profiles</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>848</x><y>336</y><w>160</w><h>80</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;externalDatabase&gt;&gt;
+IEEEXplore</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>848</x><y>448</y><w>160</w><h>80</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;externalDatabase&gt;&gt;
+Semantic Scholar</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>488</x><y>432</y><w>160</w><h>56</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Database communication
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>232</x><y>424</y><w>136</w><h>56</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Calculation</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>264</y><w>104</w><h>56</h></coordinates><panel_attributes>lt=()-[v]</panel_attributes><additional_attributes>10;50;110;10</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>360</y><w>104</w><h>48</h></coordinates><panel_attributes>lt=()-[v]
+
+
+IEEEXplore API</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>472</y><w>104</w><h>64</h></coordinates><panel_attributes>lt=()-[v]
+
+
+Semantic Scholar
+API</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>288</y><w>136</w><h>48</h></coordinates><panel_attributes>lt=[v]-(
+
+
+									User Repository</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>608</x><y>360</y><w>168</w><h>88</h></coordinates><panel_attributes>lt=[v]-(</panel_attributes><additional_attributes>10;90;180;20</additional_attributes></element><element><id>Relation</id><coordinates><x>624</x><y>472</y><w>152</w><h>40</h></coordinates><panel_attributes>lt=[v]-(
+</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>488</x><y>272</y><w>160</w><h>56</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+User Database Manager
+(DTO)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>392</x><y>264</y><w>112</w><h>32</h></coordinates><panel_attributes>lt=()-[v]
+login credentials</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>512</x><y>320</y><w>64</w><h>64</h></coordinates><panel_attributes>lt=()-[v]
+interests</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>392</x><y>304</y><w>112</w><h>32</h></coordinates><panel_attributes>lt=()-[v]
+bookmarks</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>328</x><y>352</y><w>200</w><h>88</h></coordinates><panel_attributes>lt=[v]-(</panel_attributes><additional_attributes>10;90;220;20</additional_attributes></element><element><id>Relation</id><coordinates><x>424</x><y>448</y><w>80</w><h>64</h></coordinates><panel_attributes>lt=()-[v]
+
+
+author and 
+paper data</panel_attributes><additional_attributes>10;20;80;20</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>448</y><w>80</w><h>40</h></coordinates><panel_attributes>lt=[v]-(</panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>248</x><y>368</y><w>88</w><h>72</h></coordinates><panel_attributes>lt=()-[v]
+modified and 
+evaluated data</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>320</y><w>40</w><h>64</h></coordinates><panel_attributes>lt=[v]-(</panel_attributes><additional_attributes>20;10;20;50</additional_attributes></element><element><id>Relation</id><coordinates><x>296</x><y>264</y><w>112</w><h>56</h></coordinates><panel_attributes>lt=[v]-(</panel_attributes><additional_attributes>10;50;110;20</additional_attributes></element><element><id>Relation</id><coordinates><x>296</x><y>304</y><w>112</w><h>40</h></coordinates><panel_attributes>lt=[v]-(</panel_attributes><additional_attributes>10;30;110;20</additional_attributes></element><element><id>Relation</id><coordinates><x>216</x><y>128</y><w>24</w><h>160</h></coordinates><panel_attributes>lt=()-[v]
+</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element></diagram>
