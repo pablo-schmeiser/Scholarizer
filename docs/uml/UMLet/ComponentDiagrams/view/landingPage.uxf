@@ -1,0 +1,45 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLGeneric</id><coordinates><x>300</x><y>50</y><w>400</w><h>650</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;subsystem&gt;&gt;
+Landing Page
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>400</x><y>130</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Search Engine</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>850</x><y>130</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+IEEE API
+Database</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>400</x><y>340</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Navigation Tab</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>400</x><y>550</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Authetification</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>850</x><y>550</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Users Database</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>170</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>590</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>170</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>590</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>380</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>170</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=()-[]</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>160</y><w>180</w><h>80</h></coordinates><panel_attributes>lt=[]-(
+
+
+                             Publication
+                             Database</panel_attributes><additional_attributes>50;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>580</y><w>160</w><h>80</h></coordinates><panel_attributes>lt=[]-(
+
+
+                              Users
+                              Database</panel_attributes><additional_attributes>40;20;110;20</additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>590</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=()-[]</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>400</y><w>130</w><h>150</h></coordinates><panel_attributes>lt=[]-(
+
+    
+
+
+
+
+      User Session
+
+</panel_attributes><additional_attributes>20;40;20;90</additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>500</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=()-[]</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>160</y><w>140</w><h>80</h></coordinates><panel_attributes>lt=()-[]
+
+
+Publication                
+Search                </panel_attributes><additional_attributes>40;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>370</y><w>190</w><h>90</h></coordinates><panel_attributes>lt=()-[]
+
+
+Navigate through                       
+Scholarizer's                       
+Pages                      </panel_attributes><additional_attributes>70;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>580</y><w>120</w><h>80</h></coordinates><panel_attributes>lt=()-[]
+
+
+User                 
+Session                </panel_attributes><additional_attributes>30;20;80;20</additional_attributes></element></diagram>
