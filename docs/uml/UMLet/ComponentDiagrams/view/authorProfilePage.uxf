@@ -16,11 +16,11 @@ Users Database</panel_attributes><additional_attributes></additional_attributes>
 
 
                              Publication
-                             Database</panel_attributes><additional_attributes>50;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>430</y><w>160</w><h>80</h></coordinates><panel_attributes>lt=[]-(
+                             Database</panel_attributes><additional_attributes>50;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>430</y><w>170</w><h>80</h></coordinates><panel_attributes>lt=[]-(
 
 
                               Users
-                              Database</panel_attributes><additional_attributes>40;20;110;20</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>440</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=()-[]</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>270</y><w>130</w><h>150</h></coordinates><panel_attributes>lt=[]-(
+                              Database</panel_attributes><additional_attributes>50;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>440</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=()-[]</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>270</y><w>130</w><h>150</h></coordinates><panel_attributes>lt=[]-(
 
     
 
@@ -33,12 +33,12 @@ Users Database</panel_attributes><additional_attributes></additional_attributes>
 
 
 Publication                
-Search                </panel_attributes><additional_attributes>40;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>260</y><w>190</w><h>90</h></coordinates><panel_attributes>lt=()-[]
+Search                </panel_attributes><additional_attributes>40;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>260</y><w>180</w><h>90</h></coordinates><panel_attributes>lt=()-[]
 
 
 Navigate through                       
 Scholarizer's                       
-Pages                      </panel_attributes><additional_attributes>70;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>430</y><w>120</w><h>80</h></coordinates><panel_attributes>lt=()-[]
+Pages                      </panel_attributes><additional_attributes>60;20;110;20</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>430</y><w>120</w><h>80</h></coordinates><panel_attributes>lt=()-[]
 
 
 User                 
@@ -46,7 +46,7 @@ Session                </panel_attributes><additional_attributes>30;20;80;20</ad
 &lt;&lt;component&gt;&gt;
 Follow Button</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>460</x><y>650</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
 &lt;&lt;component&gt;&gt;
-Compare Button</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>570</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>70;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>690</y><w>210</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>190;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>560</y><w>140</w><h>60</h></coordinates><panel_attributes>lt=()-[]
+Compare Button</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>570</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>50;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>690</y><w>210</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>190;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>560</y><w>140</w><h>60</h></coordinates><panel_attributes>lt=()-[]
 
 
 Follow Author                </panel_attributes><additional_attributes>40;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>680</y><w>120</w><h>80</h></coordinates><panel_attributes>lt=()-[]
