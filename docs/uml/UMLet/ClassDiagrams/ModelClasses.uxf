@@ -1,14 +1,16 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>12</zoom_level><element><id>UMLPackage</id><coordinates><x>0</x><y>0</y><w>612</w><h>372</h></coordinates><panel_attributes>indices</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>144</x><y>72</y><w>252</w><h>84</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+<diagram program="umletino" version="15.0.0"><zoom_level>13</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLPackage</id><coordinates><x>0</x><y>325</y><w>663</w><h>403</h></coordinates><panel_attributes>indices</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>156</x><y>403</y><w>273</w><h>91</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
 IIndex
 --
 +calculate(List&lt;Int&gt; args): Int
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>336</x><y>252</y><w>252</w><h>60</h></coordinates><panel_attributes>H-Index
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>364</x><y>598</y><w>273</w><h>78</h></coordinates><panel_attributes>H-Index
+{Singleton}
 --
 #calculate(List&lt;Int&gt; args): Int
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>144</y><w>156</w><h>132</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;110;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>36</x><y>252</y><w>252</w><h>60</h></coordinates><panel_attributes>I10-Index
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>351</x><y>481</y><w>169</w><h>143</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;110;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>39</x><y>598</y><w>273</w><h>78</h></coordinates><panel_attributes>I10-Index
+{Singleton}
 --
 #calculate(List&lt;Int&gt; args): Int
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>156</x><y>144</y><w>120</w><h>132</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>80;10;10;90</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>816</x><y>96</y><w>780</w><h>396</h></coordinates><panel_attributes>papers</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>852</x><y>144</y><w>252</w><h>180</h></coordinates><panel_attributes>PaperEntity
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>169</x><y>481</y><w>130</w><h>143</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>80;10;10;90</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>884</x><y>78</y><w>845</w><h>429</h></coordinates><panel_attributes>papers</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>923</x><y>130</y><w>273</w><h>195</h></coordinates><panel_attributes>PaperEntity
 {Entity}
 --
 -citations: int
@@ -16,15 +18,15 @@ IIndex
 -title: String
 -abstract: String
 
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1296</x><y>144</y><w>252</w><h>180</h></coordinates><panel_attributes>PaperController
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1404</x><y>130</y><w>273</w><h>195</h></coordinates><panel_attributes>PaperController
 {RestController}
 --
 
 --
 +display(paperTitle: String): PaperEntity
--getPaper(): PaperEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1092</x><y>276</y><w>228</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+-getPaper(): PaperEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1183</x><y>273</y><w>247</w><h>65</h></coordinates><panel_attributes>lt=&lt;-
 m1=0..*
-&lt; knows</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>768</x><y>24</y><w>1764</w><h>996</h></coordinates><panel_attributes>springEntitiesAndControllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>816</x><y>540</y><w>780</w><h>396</h></coordinates><panel_attributes>papers</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>852</x><y>588</y><w>252</w><h>180</h></coordinates><panel_attributes>AuthorEntity
+&lt; knows</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>832</x><y>0</y><w>1911</w><h>1079</h></coordinates><panel_attributes>springEntitiesAndControllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>884</x><y>559</y><w>845</w><h>429</h></coordinates><panel_attributes>papers</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>923</x><y>611</y><w>273</w><h>195</h></coordinates><panel_attributes>AuthorEntity
 {Entity}
 --
 -citations: int
@@ -33,15 +35,15 @@ m1=0..*
 
 --
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1296</x><y>588</y><w>264</w><h>180</h></coordinates><panel_attributes>AuthorController
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1404</x><y>611</y><w>286</w><h>195</h></coordinates><panel_attributes>AuthorController
 {RestController}
 --
 
 --
 +display(authorName): AuthorEntity
--getAuthor(): AuthorEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1092</x><y>720</y><w>228</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+-getAuthor(): AuthorEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1183</x><y>754</y><w>247</w><h>65</h></coordinates><panel_attributes>lt=&lt;-
 m1=0..*
-&lt; knows</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1704</x><y>276</y><w>756</w><h>528</h></coordinates><panel_attributes>users</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1728</x><y>336</y><w>252</w><h>192</h></coordinates><panel_attributes>UserEntity
+&lt; knows</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1846</x><y>273</y><w>819</w><h>572</h></coordinates><panel_attributes>users</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1872</x><y>338</y><w>273</w><h>208</h></coordinates><panel_attributes>UserEntity
 {Entity}
 --
 -mail: String
@@ -49,25 +51,71 @@ m1=0..*
 -preferences: List&lt;String&gt;
 -bookmarks: List&lt;String&gt;
 
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2172</x><y>336</y><w>252</w><h>192</h></coordinates><panel_attributes>UserController
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2353</x><y>338</y><w>273</w><h>208</h></coordinates><panel_attributes>UserController
 {RestController}
 --
 
 --
 +display(user: String): UserEntity
--getUser(): UserEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1968</x><y>468</y><w>228</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+-getUser(): UserEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2132</x><y>481</y><w>247</w><h>65</h></coordinates><panel_attributes>lt=&lt;-
 m1=0..*
-&lt; knows</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2052</x><y>636</y><w>252</w><h>144</h></coordinates><panel_attributes>PaperRepository
+&lt; knows</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2223</x><y>663</y><w>273</w><h>156</h></coordinates><panel_attributes>PaperRepository
 {Repository}
 --
 
 --
 #findByMail(): UserEntity
 #delete(user: UserEntity): void
-#create(mail: String, pw: String): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2244</x><y>516</y><w>96</w><h>144</h></coordinates><panel_attributes>lt=-&gt;
+#create(mail: String, pw: String): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2431</x><y>533</y><w>104</w><h>156</h></coordinates><panel_attributes>lt=-&gt;
 m1=1
 m2=1
-knows v</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>1920</x><y>516</y><w>156</w><h>144</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+knows v</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>2080</x><y>533</y><w>169</w><h>156</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 m2=     0..*
-                stores ^</panel_attributes><additional_attributes>110;100;10;10</additional_attributes></element></diagram>
+                stores ^</panel_attributes><additional_attributes>110;100;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>325</x><y>1196</y><w>1430</w><h>611</h></coordinates><panel_attributes>APICommunication</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>468</x><y>1560</y><w>351</w><h>117</h></coordinates><panel_attributes>SemanticScholarCommunication
+--
+
+--
+-getAPIKey(): String
+-doAPICall(params: List&lt;String&gt;): JSONObject</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>416</x><y>1248</y><w>208</w><h>91</h></coordinates><panel_attributes>API Key stored in ".env"
+is read and returned by
+getAPIKey() of the 
+respective class</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>611</x><y>1248</y><w>104</w><h>104</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>60;60;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>689</x><y>1248</y><w>429</w><h>195</h></coordinates><panel_attributes>/APICommunication/
+{abstract}
+--
+-response: JSONObject
+--
+-getAPIKey(): String {abstract}
+-doAPICall(params: List&lt;String&gt;): JSONObject {abstract}
+#getData: JSONObject
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>585</x><y>1430</y><w>221</w><h>156</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>150;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>858</x><y>1560</y><w>351</w><h>117</h></coordinates><panel_attributes>IEEEXploreCommunication
+--
+
+--
+-getAPIKey(): String
+-doAPICall(params: List&lt;String&gt;): JSONObject</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>871</x><y>1430</y><w>156</w><h>156</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1287</x><y>1261</y><w>442</w><h>169</h></coordinates><panel_attributes>DataMerger
+{Singleton}
+--
+-APIs: List&lt;APICommunication&gt;
+-mergedResponse: JSONObject
+--
+-getAllResponses(params: List&lt;String&gt;): List&lt;JSONObject&gt;
+-mergeData(List&lt;JSONObject&gt;): JSONObject
+#getData(params: List&lt;String&gt;): JSONObject
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1105</x><y>1326</y><w>208</w><h>52</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..*
+m2=1</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1287</x><y>1534</y><w>442</w><h>169</h></coordinates><panel_attributes>DataCleaner
+{Singleton}
+--
+-merger: DataMerger
+--
+-cleanData(data: JSONObject): JSONObject
++getData(params: List&lt;String&gt;): JSONObject
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1482</x><y>1417</y><w>52</w><h>143</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element></diagram>
