@@ -1,58 +1,12 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLGeneric</id><coordinates><x>280</x><y>10</y><w>400</w><h>750</h></coordinates><panel_attributes>symbol=component
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLGeneric</id><coordinates><x>270</x><y>98</y><w>550</w><h>530</h></coordinates><panel_attributes>symbol=component
 &lt;&lt;subsystem&gt;&gt;
 Author Profile Page
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>380</x><y>90</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>440</x><y>178</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
 &lt;&lt;component&gt;&gt;
-Search Engine</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>830</x><y>90</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+Follow Button</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>440</x><y>328</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
 &lt;&lt;component&gt;&gt;
-IEEE API
-Database</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>380</x><y>230</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+Compare Button</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>310</x><y>488</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
 &lt;&lt;component&gt;&gt;
-Navigation Tab</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>380</x><y>400</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+Publication Page</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>580</x><y>488</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
 &lt;&lt;component&gt;&gt;
-Authetification</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>830</x><y>400</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
-&lt;&lt;component&gt;&gt;
-Users Database</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>130</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>440</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>130</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>440</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>270</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>130</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=()-[]</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>120</y><w>180</w><h>80</h></coordinates><panel_attributes>lt=[]-(
-
-
-                             Publication
-                             Database</panel_attributes><additional_attributes>50;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>430</y><w>170</w><h>80</h></coordinates><panel_attributes>lt=[]-(
-
-
-                              Users
-                              Database</panel_attributes><additional_attributes>50;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>440</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=()-[]</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>270</y><w>130</w><h>150</h></coordinates><panel_attributes>lt=[]-(
-
-    
-
-
-
-
-      User Session
-
-</panel_attributes><additional_attributes>20;60;20;80</additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>360</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=()-[]</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>120</y><w>140</w><h>80</h></coordinates><panel_attributes>lt=()-[]
-
-
-Publication                
-Search                </panel_attributes><additional_attributes>40;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>260</y><w>180</w><h>90</h></coordinates><panel_attributes>lt=()-[]
-
-
-Navigate through                       
-Scholarizer's                       
-Pages                      </panel_attributes><additional_attributes>60;20;110;20</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>430</y><w>120</w><h>80</h></coordinates><panel_attributes>lt=()-[]
-
-
-User                 
-Session                </panel_attributes><additional_attributes>30;20;80;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>320</x><y>530</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
-&lt;&lt;component&gt;&gt;
-Follow Button</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>460</x><y>650</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
-&lt;&lt;component&gt;&gt;
-Compare Button</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>570</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>50;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>690</y><w>210</w><h>30</h></coordinates><panel_attributes>lt=[]-[]</panel_attributes><additional_attributes>190;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>560</y><w>140</w><h>60</h></coordinates><panel_attributes>lt=()-[]
-
-
-Follow Author                </panel_attributes><additional_attributes>40;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>680</y><w>120</w><h>80</h></coordinates><panel_attributes>lt=()-[]
-
-
-Compare               
-Author                </panel_attributes><additional_attributes>30;20;80;20</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>570</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=[]-</panel_attributes><additional_attributes>10;10;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>540</y><w>130</w><h>60</h></coordinates><panel_attributes>lt=-(
-     Authentificate
-     login</panel_attributes><additional_attributes>20;40;20;20</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>490</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=()-[]</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element></diagram>
+Statistics Page</panel_attributes><additional_attributes></additional_attributes></element></diagram>
