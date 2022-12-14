@@ -1,4 +1,5 @@
-FROM node:19.2
+FROM node:latest
+FROM mvn:latest
 
 WORKDIR /app
 
@@ -13,5 +14,5 @@ COPY . .
 ENV PORT=8080
 EXPOSE 8080
 
-CMD ["npm", "start"]
+RUN npm start
 CMD ["mvn", "spring-boot:run"]
