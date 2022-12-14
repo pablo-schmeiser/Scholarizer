@@ -1,6 +1,6 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLGeneric</id><coordinates><x>300</x><y>40</y><w>400</w><h>720</h></coordinates><panel_attributes>symbol=component
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLGeneric</id><coordinates><x>300</x><y>40</y><w>400</w><h>720</h></coordinates><panel_attributes>symbol=component
 &lt;&lt;subsystem&gt;&gt;
-Compare Authors Page
+Author Comparison Page
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>400</x><y>100</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
 &lt;&lt;component&gt;&gt;
 Add Author Button</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>400</x><y>230</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
