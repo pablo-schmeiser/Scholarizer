@@ -26,7 +26,7 @@ IIndex
 +display(paperTitle: String): PaperEntity
 -getPaper(): PaperEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1001</x><y>231</y><w>209</w><h>55</h></coordinates><panel_attributes>lt=&lt;-
 m1=0..*
-&lt; knows</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>704</x><y>0</y><w>1617</w><h>913</h></coordinates><panel_attributes>springEntitiesAndControllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>748</x><y>363</y><w>715</w><h>242</h></coordinates><panel_attributes>papers</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>781</x><y>407</y><w>231</w><h>165</h></coordinates><panel_attributes>AuthorEntity
+&lt; knows</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>704</x><y>0</y><w>1617</w><h>913</h></coordinates><panel_attributes>springEntitiesAndControllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>748</x><y>363</y><w>715</w><h>242</h></coordinates><panel_attributes>authors</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>781</x><y>407</y><w>231</w><h>165</h></coordinates><panel_attributes>AuthorEntity
 {Entity}
 --
 -citations: int
