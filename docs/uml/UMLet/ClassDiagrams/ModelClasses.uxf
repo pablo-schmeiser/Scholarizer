@@ -30,15 +30,16 @@ IIndex
 -mail: String
 -password: String
 -preferences: List&lt;String&gt;
--bookmarks: List&lt;String&gt;
+-bookmarks: List&lt;JSONObject&gt;
 --</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1450</x><y>650</y><w>240</w><h>120</h></coordinates><panel_attributes>UserRepository
 {Repository}
 --
 
 --
-#findByMail(): UserEntity
+#findByMail(mail: String): UserEntity
 #delete(user: UserEntity): void
-#create(mail: String, pw: String): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1550</x><y>530</y><w>80</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+#create(mail: String, pw: String): boolean
+#findByOID(id: long): UserEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1550</x><y>530</y><w>80</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 m2=0..*
 stores ^</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>310</x><y>1100</y><w>1100</w><h>440</h></coordinates><panel_attributes>APICommunication</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>1390</y><w>270</w><h>90</h></coordinates><panel_attributes>SemanticScholarCommunication
@@ -95,10 +96,20 @@ _-cleaner: &lt;DataCleaner&gt; {readOnly}_
 --
 +getAndSetData(params: List&lt;String&gt;): void
 /#setData(json: JSONObject): void/</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1200</x><y>530</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>1000</x><y>530</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>1320</x><y>60</y><w>80</w><h>270</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;250;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1280</x><y>0</y><w>100</w><h>70</h></coordinates><panel_attributes>controllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>920</x><y>820</y><w>80</w><h>320</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;300</additional_attributes></element><element><id>UMLNote</id><coordinates><x>770</x><y>470</y><w>140</w><h>70</h></coordinates><panel_attributes>JSONObjet is read and
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;250;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1280</x><y>0</y><w>100</w><h>70</h></coordinates><panel_attributes>controllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>920</x><y>770</y><w>80</w><h>370</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;350</additional_attributes></element><element><id>UMLNote</id><coordinates><x>770</x><y>470</y><w>140</w><h>70</h></coordinates><panel_attributes>JSONObjet is read and
 the according vars of 
 the Entity are set</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>490</y><w>90</w><h>40</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>70;10;10;20</additional_attributes></element><element><id>UMLNote</id><coordinates><x>250</x><y>310</y><w>250</w><h>100</h></coordinates><panel_attributes>Using the 
 org.reflections library,it is possible to get 
 all classes that inherit from a specific class. 
-In this case all Inices</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>400</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
+In this case all Inices</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>400</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1810</x><y>670</y><w>250</w><h>210</h></coordinates><panel_attributes>UserDB</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1680</x><y>680</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;access&gt;&gt;</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1830</x><y>720</y><w>210</w><h>140</h></coordinates><panel_attributes>&lt;&lt;table&gt;&gt;
+User
+--
+-OID: long
+-mail: String
+-pw: String
+-preferences: List&lt;String&gt;
+-bookmarks: List&lt;JSONObject&gt;
+-follows: List&lt;JSONObject&gt;
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
