@@ -54,8 +54,8 @@ respective class</panel_attributes><additional_attributes></additional_attribute
 --
 
 --
--getAPIKey(): String {abstract}
--doAPICall(params: List&lt;String&gt;): JSONObject {abstract}
+/-getAPIKey(): String/
+/-doAPICall(params: List&lt;String&gt;): JSONObject/
 #getData: JSONObject
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>1290</y><w>170</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>150;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>720</x><y>1390</y><w>270</w><h>90</h></coordinates><panel_attributes>IEEEXploreCommunication
@@ -86,7 +86,7 @@ m2=1</panel_attributes><additional_attributes>10;10;140;10</additional_attribute
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1200</x><y>1280</y><w>40</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>730</x><y>360</y><w>640</w><h>420</h></coordinates><panel_attributes>search</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>970</x><y>390</y><w>260</w><h>150</h></coordinates><panel_attributes>SearchEntity
+m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>730</x><y>360</y><w>640</w><h>420</h></coordinates><panel_attributes>search</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>970</x><y>390</y><w>260</w><h>150</h></coordinates><panel_attributes>/SearchEntity/
 {abstract}
 --
 -citations: int
@@ -94,7 +94,7 @@ m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes
 _-cleaner: &lt;DataCleaner&gt; {readOnly}_
 --
 +getAndSetData(params: List&lt;String&gt;): void
-#setData(json: JSONObject): void {abstract}</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1200</x><y>530</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>1000</x><y>530</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>1320</x><y>60</y><w>80</w><h>270</h></coordinates><panel_attributes>lt=&lt;.
+/#setData(json: JSONObject): void/</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1200</x><y>530</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>1000</x><y>530</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>1320</x><y>60</y><w>80</w><h>270</h></coordinates><panel_attributes>lt=&lt;.
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;250;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1280</x><y>0</y><w>100</w><h>70</h></coordinates><panel_attributes>controllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>920</x><y>820</y><w>80</w><h>320</h></coordinates><panel_attributes>lt=.&gt;
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;300</additional_attributes></element><element><id>UMLNote</id><coordinates><x>770</x><y>470</y><w>140</w><h>70</h></coordinates><panel_attributes>JSONObjet is read and
 the according vars of 
