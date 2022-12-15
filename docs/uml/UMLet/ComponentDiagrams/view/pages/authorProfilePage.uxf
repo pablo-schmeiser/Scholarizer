@@ -1,0 +1,12 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLGeneric</id><coordinates><x>270</x><y>98</y><w>550</w><h>530</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;subsystem&gt;&gt;
+Author Profile Page
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>440</x><y>178</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Follow Button</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>440</x><y>328</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Compare Button</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>310</x><y>488</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Publication Page</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>580</x><y>488</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Statistics Page</panel_attributes><additional_attributes></additional_attributes></element></diagram>

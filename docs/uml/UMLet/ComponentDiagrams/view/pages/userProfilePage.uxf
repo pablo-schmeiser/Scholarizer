@@ -1,0 +1,7 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLGeneric</id><coordinates><x>300</x><y>110</y><w>400</w><h>400</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;subsystem&gt;&gt;
+User Profile Page</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>400</x><y>210</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+User Info Tab</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>400</x><y>340</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Interests Tab</panel_attributes><additional_attributes></additional_attributes></element></diagram>
