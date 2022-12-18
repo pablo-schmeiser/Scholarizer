@@ -1,0 +1,8 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLGeneric</id><coordinates><x>10</x><y>10</y><w>550</w><h>530</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;subsystem&gt;&gt;
+Author Profile Page
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>180</x><y>110</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Sign up entry window</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>180</x><y>250</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Sign up button</panel_attributes><additional_attributes></additional_attributes></element></diagram>
