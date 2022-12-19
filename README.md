@@ -24,7 +24,7 @@
 <h3 align="center">Scholarizer</h3>
 
   <p align="center">
-    A webplatform for scholars to find other scholars in their field of expertice. It also differentiates between normal citations and self-citations, it should also consider recursive citations and present all of these Informations in a friendly and usefull GUI
+    A webplatform for scholars to find other scholars in their field of expertice. The key difference to other similar platform is Schloarizers differentiation between normal citations and self-citations aswell as the option to compare multiple scholars regarding multiple different metric.
     <br />
     <a href="https://github.com/pablo-schmeiser/Scholarizer"><strong>Explore the docs »</strong></a>
     <br />
