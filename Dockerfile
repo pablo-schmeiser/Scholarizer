@@ -6,16 +6,18 @@ WORKDIR /app
 #RUN apt-get update && apt-get install -y maven
 
 COPY pom.xml ./
-RUN mvn dependency:go-offline
+RUN mvn compile
+RUN mvn package
 
 COPY package*.json ./
-RUN npm install
+RUN pnpm install
 
 COPY . .
 
-RUN npm run build
+RUN pnpm build
+RUN pnpm start
 
 ENV PORT=8080
 EXPOSE 8080
 
-CMD ["mvn", "spring-boot:run"]
+CMD ["java", "-jar", "target/scholarizer.jar"]
