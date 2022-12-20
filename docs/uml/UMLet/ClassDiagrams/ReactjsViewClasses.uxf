@@ -1,26 +1,26 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>1</zoom_level><help_text>m1 = 1
-m2 = </help_text><element><id>UMLClass</id><coordinates><x>480</x><y>63</y><w>21</w><h>10</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+<diagram program="umletino" version="15.0.0"><zoom_level>5</zoom_level><help_text>m1 = 1
+m2 = </help_text><element><id>UMLClass</id><coordinates><x>1330</x><y>200</y><w>105</w><h>50</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 App
 --
 - routes: Pages[]
 - Switch: JSX
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>546</x><y>56</y><w>53</w><h>44</h></coordinates><panel_attributes>NavLinks</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>62</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>615</x><y>15</y><w>265</w><h>220</h></coordinates><panel_attributes>NavLinks</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>635</x><y>45</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 Profile
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>74</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>635</x><y>105</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 Search
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>575</x><y>74</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>760</x><y>105</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 Explore
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>575</x><y>62</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>760</x><y>45</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 Settings
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>86</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>635</x><y>165</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 SignUp
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>585</x><y>170</y><w>21</w><h>19</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2105</x><y>850</y><w>105</w><h>95</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 Button
 --
 - styles: CSS[]
@@ -31,493 +31,499 @@ Button
 --
 #Operation(i: int): int
 /+AbstractOperation()/
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>552</x><y>184</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1940</x><y>920</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 Profile
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>556</x><y>172</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1960</x><y>860</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 Search
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>552</x><y>197</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1940</x><y>985</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 SignUp
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>615</x><y>189</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2255</x><y>945</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 Explore
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>615</x><y>175</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2255</x><y>875</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 Settings
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>549</x><y>147</y><w>91</w><h>75</h></coordinates><panel_attributes>Buttons</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>605</x><y>178</y><w>12</w><h>3</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>605</x><y>185</y><w>21</w><h>6</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;190;40</additional_attributes></element><element><id>Relation</id><coordinates><x>562</x><y>188</y><w>26</w><h>11</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>240;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>572</x><y>185</y><w>15</w><h>3</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>576</x><y>175</y><w>11</w><h>3</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>164</x><y>0</y><w>110</w><h>59</h></coordinates><panel_attributes>Pages</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>168</x><y>6</y><w>21</w><h>19</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1925</x><y>735</y><w>455</w><h>375</h></coordinates><panel_attributes>Buttons</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2205</x><y>890</y><w>60</w><h>15</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2205</x><y>925</y><w>105</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;190;40</additional_attributes></element><element><id>Relation</id><coordinates><x>1990</x><y>940</y><w>130</w><h>55</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>240;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>2040</x><y>925</y><w>75</w><h>15</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2060</x><y>875</y><w>55</w><h>15</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>0</y><w>550</w><h>295</h></coordinates><panel_attributes>Pages</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>30</y><w>105</w><h>95</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 LandingPage
 --
 - searchBar: SearchBar
 --
 +Home()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>195</x><y>6</y><w>21</w><h>19</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>155</x><y>30</y><w>105</w><h>95</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 SearchResultsPage
 --
 
 --
 +SearchResults()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>224</x><y>6</y><w>21</w><h>19</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>30</y><w>105</w><h>95</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 AuthorProfilePage
 --
 
 --
 +ProfilePage()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>168</x><y>32</y><w>21</w><h>19</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>160</y><w>105</w><h>95</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 UserProfilePage
 --
 
 --
 +UserProfilePage()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>196</x><y>32</y><w>21</w><h>19</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>160</y><w>105</w><h>95</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 RecommendedPage
 --
 
 --
 +RecommendedPage()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>223</x><y>32</y><w>25</w><h>19</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>295</x><y>160</y><w>125</w><h>95</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 AuthorComparisonPage
 --
 -  comparisonTable: ComparisonTable
 --
 +AuthorComparisonPage()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>655</x><y>313</y><w>21</w><h>14</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2455</x><y>1565</y><w>105</w><h>70</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 SearchBar
 --
 - searchInput: String
 - searchIcon: Image
 --
 +SearchBar(placeHolder, data)
-+ handleFilter()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>565</x><y>209</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
++ handleFilter()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2005</x><y>1045</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 Compare
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>210</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2130</x><y>1050</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 Follow
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>613</x><y>202</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2245</x><y>1010</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 AddAuthor
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>188</y><w>3</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;220</additional_attributes></element><element><id>Relation</id><coordinates><x>604</x><y>188</y><w>13</w><h>16</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;110;140</additional_attributes></element><element><id>Relation</id><coordinates><x>580</x><y>188</y><w>12</w><h>23</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;10;10;210</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>345</x><y>220</y><w>129</w><h>96</h></coordinates><panel_attributes>UserProfilePage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>403</x><y>224</y><w>21</w><h>19</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2180</x><y>940</y><w>15</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;220</additional_attributes></element><element><id>Relation</id><coordinates><x>2200</x><y>940</y><w>65</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;110;140</additional_attributes></element><element><id>Relation</id><coordinates><x>2080</x><y>940</y><w>60</w><h>115</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;10;10;210</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>905</x><y>1100</y><w>645</w><h>480</h></coordinates><panel_attributes>UserProfilePage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1195</x><y>1120</y><w>105</w><h>95</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 view.pages.UserProfilePage
 --
 
 --
 +UserProfilePage()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>399</x><y>251</y><w>27</w><h>15</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1175</x><y>1255</y><w>135</w><h>75</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 UserProfileTable
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>585</x><y>152</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2105</x><y>760</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 AddInterest
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>594</x><y>159</y><w>3</w><h>13</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>546</x><y>234</y><w>96</w><h>60</h></coordinates><panel_attributes>NavBar</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>581</x><y>249</y><w>20</w><h>11</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2150</x><y>795</y><w>15</w><h>65</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1910</x><y>1170</y><w>480</w><h>300</h></coordinates><panel_attributes>NavBar</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2085</x><y>1245</y><w>100</w><h>55</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 NavBarContainer
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>551</x><y>250</y><w>21</w><h>10</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1935</x><y>1250</y><w>105</w><h>50</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 NavBar
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>563</x><y>269</y><w>14</w><h>9</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1995</x><y>1345</y><w>70</w><h>45</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 NavBarLogo
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>593</x><y>270</y><w>14</w><h>9</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2145</x><y>1350</y><w>70</w><h>45</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 MenuIcon
 --
 +menuIconClicked()
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>614</x><y>250</y><w>21</w><h>9</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2250</x><y>1250</y><w>105</w><h>45</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 NavMenu
 --
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>613</x><y>270</y><w>21</w><h>9</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2245</x><y>1350</y><w>105</w><h>45</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 NavItem
 --
 -link: NavLink
 --
 +onClick()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>622</x><y>258</y><w>5</w><h>14</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2290</x><y>1290</y><w>25</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1..*</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>254</y><w>16</w><h>4</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1..*</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>2180</x><y>1270</y><w>80</w><h>20</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>598</x><y>259</y><w>4</w><h>13</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2170</x><y>1295</y><w>20</w><h>65</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>571</x><y>254</y><w>12</w><h>4</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>2035</x><y>1270</y><w>60</w><h>20</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>576</x><y>259</y><w>9</w><h>18</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2060</x><y>1295</y><w>45</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>60;10;60;150;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>397</x><y>275</y><w>31</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>60;10;60;150;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1165</x><y>1375</y><w>155</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 UserProfileContainer
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>397</x><y>291</y><w>31</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1165</x><y>1455</y><w>155</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 UserProfileWrapper
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>359</x><y>228</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>975</x><y>1140</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 InterestsTab
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>448</x><y>228</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1420</x><y>1140</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 UserInformationTab
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>359</x><y>253</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>975</x><y>1265</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 InterestsTabContainer
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>359</x><y>277</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>975</x><y>1385</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 InterestsTabWrapper
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>347</x><y>305</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>915</x><y>1525</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 InterestsTabItems
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>374</x><y>305</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1050</x><y>1525</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 AddInterestsButton
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>411</x><y>265</y><w>4</w><h>12</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1235</x><y>1325</y><w>20</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>407</x><y>282</y><w>4</w><h>11</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>1215</x><y>1410</y><w>20</w><h>55</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>379</x><y>231</y><w>20</w><h>67</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>1075</x><y>1155</y><w>100</w><h>335</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>180;640;80;640;70;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>373</x><y>235</y><w>4</w><h>20</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>180;640;80;640;70;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1045</x><y>1175</y><w>20</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element><element><id>Relation</id><coordinates><x>374</x><y>260</y><w>4</w><h>19</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element><element><id>Relation</id><coordinates><x>1050</x><y>1300</y><w>20</w><h>95</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>Relation</id><coordinates><x>364</x><y>284</y><w>5</w><h>23</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>Relation</id><coordinates><x>1000</x><y>1420</y><w>25</w><h>115</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1..*</panel_attributes><additional_attributes>10;10;10;210</additional_attributes></element><element><id>Relation</id><coordinates><x>375</x><y>284</y><w>4</w><h>23</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1..*</panel_attributes><additional_attributes>10;10;10;210</additional_attributes></element><element><id>Relation</id><coordinates><x>1055</x><y>1420</y><w>20</w><h>115</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;210</additional_attributes></element><element><id>UMLClass</id><coordinates><x>448</x><y>248</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;210</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1420</x><y>1240</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 UserInformationContainer
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>448</x><y>265</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1420</x><y>1325</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 UserInformationWrapper
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>448</x><y>285</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1420</x><y>1425</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 UserInformationItems
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>457</x><y>272</y><w>5</w><h>15</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1465</x><y>1360</y><w>25</w><h>75</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1..*</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>458</x><y>255</y><w>4</w><h>12</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1..*</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>1470</x><y>1275</y><w>20</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>458</x><y>235</y><w>4</w><h>15</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>1470</x><y>1175</y><w>20</w><h>75</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>426</x><y>231</y><w>24</w><h>68</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>1310</x><y>1155</y><w>120</w><h>340</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;650;120;650;130;10;220;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>232</x><y>237</y><w>82</w><h>55</h></coordinates><panel_attributes>LandingPage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>251</x><y>244</y><w>21</w><h>9</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;650;130;650;130;10;220;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>340</x><y>1185</y><w>410</w><h>275</h></coordinates><panel_attributes>LandingPage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>435</x><y>1220</y><w>105</w><h>45</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 LandingPage
 --
 
 --
 +Home()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>281</x><y>244</y><w>19</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>585</x><y>1220</y><w>95</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 HomeContainer
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>281</x><y>259</y><w>19</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>585</x><y>1295</y><w>95</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 HomeWrapper
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>293</x><y>274</y><w>19</w><h>8</h></coordinates><panel_attributes>&lt;&lt;Image&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>645</x><y>1370</y><w>95</w><h>40</h></coordinates><panel_attributes>&lt;&lt;Image&gt;&gt;
 ScholarizerLogo
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>266</x><y>274</y><w>21</w><h>13</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>1370</y><w>105</w><h>65</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 SearchBar
 --
 - searchInput: String
 - searchIcon: Image
 --
 +SearchBar(placeHolder, data)
-+ handleFilter()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>271</x><y>247</y><w>12</w><h>4</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
++ handleFilter()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>535</x><y>1235</y><w>60</w><h>20</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>288</x><y>251</y><w>4</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>1255</y><w>20</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>283</x><y>266</y><w>4</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>595</x><y>1330</y><w>20</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>294</x><y>266</y><w>4</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>1330</y><w>20</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>343</x><y>152</y><w>66</w><h>51</h></coordinates><panel_attributes>SearchResultsPage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>346</x><y>158</y><w>21</w><h>11</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>895</x><y>760</y><w>330</w><h>255</h></coordinates><panel_attributes>SearchResultsPage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>910</x><y>790</y><w>105</w><h>55</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 SearchResultsPage
 --
 
 --
 +SearchResults()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>377</x><y>159</y><w>19</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1065</x><y>795</y><w>95</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 ResultsContainer
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>373</x><y>174</y><w>23</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1045</x><y>870</y><w>115</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 ResultsWrapper
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>383</x><y>189</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1095</x><y>945</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 PublicationResult
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>391</x><y>181</y><w>5</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1135</x><y>905</y><w>25</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1..*</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>385</x><y>166</y><w>4</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1..*</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>1105</x><y>830</y><w>20</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>366</x><y>163</y><w>13</w><h>4</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>1010</x><y>815</y><w>65</w><h>20</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;110;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>462</x><y>58</y><w>59</w><h>37</h></coordinates><panel_attributes>App</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>465</x><y>81</y><w>21</w><h>10</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;110;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1240</x><y>175</y><w>295</w><h>185</h></coordinates><panel_attributes>App</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1255</x><y>290</y><w>105</w><h>50</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 NavBar
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>495</x><y>81</y><w>21</w><h>10</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1405</x><y>290</y><w>105</w><h>50</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 LandingPage
 --
 - searchBar: SearchBar
 --
 +Home()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>481</x><y>72</y><w>4</w><h>11</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1335</x><y>245</y><w>20</w><h>55</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>496</x><y>72</y><w>4</w><h>11</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>1410</x><y>245</y><w>20</w><h>55</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>245</x><y>301</y><w>59</w><h>52</h></coordinates><panel_attributes>RecommendedPage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>248</x><y>308</y><w>21</w><h>11</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>230</x><y>1505</y><w>315</w><h>260</h></coordinates><panel_attributes>RecommendedPage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>245</x><y>1540</y><w>105</w><h>55</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 RecommendedPage
 --
 
 --
 +RecommendedResults()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>279</x><y>308</y><w>19</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>1540</y><w>95</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 RecommendedContainer
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>279</x><y>323</y><w>19</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>1615</y><w>95</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 RecommendedWrapper
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>279</x><y>338</y><w>19</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>1690</y><w>95</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 PublicationResult
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>287</x><y>330</y><w>5</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>1650</y><w>25</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1..*</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>287</x><y>315</y><w>4</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1..*</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>1575</y><w>20</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>268</x><y>311</y><w>13</w><h>4</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>345</x><y>1555</y><w>65</w><h>20</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;110;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>6</y><w>21</w><h>19</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;110;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>30</y><w>105</w><h>95</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 SignUpPage
 --
 
 --
 +signUpPage()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>422</x><y>154</y><w>60</w><h>48</h></coordinates><panel_attributes>SignUpPage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>426</x><y>161</y><w>21</w><h>11</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1290</x><y>770</y><w>300</w><h>240</h></coordinates><panel_attributes>SignUpPage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1310</x><y>805</y><w>105</w><h>55</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 SignUpPage
 --
 
 --
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>446</x><y>164</y><w>13</w><h>4</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1410</x><y>820</y><w>65</w><h>20</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;110;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>457</x><y>161</y><w>19</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;110;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1465</x><y>805</y><w>95</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 SignUpContainer
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>465</x><y>168</y><w>4</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1505</x><y>840</y><w>20</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>457</x><y>176</y><w>19</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1465</x><y>880</y><w>95</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 SignUpWrapper
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>465</x><y>183</y><w>4</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1505</x><y>915</y><w>20</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>457</x><y>191</y><w>19</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1465</x><y>955</y><w>95</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 EmailEnrtyBar
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>433</x><y>191</y><w>19</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1345</x><y>955</y><w>95</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 PasswordEnrtyBar
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>442</x><y>180</y><w>17</w><h>13</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1390</x><y>900</y><w>85</w><h>65</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>150;10;10;10;10;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>405</x><y>331</y><w>21</w><h>16</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+m2=1</panel_attributes><additional_attributes>150;10;10;10;10;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1205</x><y>1655</y><w>105</w><h>80</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 AuthorProfilePage
 --
 
 --
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>413</x><y>346</y><w>4</w><h>12</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1245</x><y>1730</y><w>20</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>401</x><y>356</y><w>27</w><h>15</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1185</x><y>1780</y><w>135</w><h>75</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 AuthorProfileTable
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>413</x><y>370</y><w>4</w><h>14</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1245</x><y>1850</y><w>20</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>382</y><w>31</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1180</x><y>1910</y><w>155</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 AuthorProfileContainer
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>389</y><w>4</w><h>11</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1230</x><y>1945</y><w>20</w><h>55</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>398</y><w>31</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1180</x><y>1990</y><w>155</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 AuthorProfileWrapper
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>372</x><y>340</y><w>30</w><h>65</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1040</x><y>1700</y><w>150</w><h>325</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>280;620;190;620;190;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>352</x><y>337</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+m2=1</panel_attributes><additional_attributes>280;620;190;620;190;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>940</x><y>1685</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 AuthorHeader
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>446</x><y>339</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1410</x><y>1695</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 AuthorContentTab
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>342</y><w>18</w><h>64</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1330</x><y>1710</y><w>90</w><h>320</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;610;60;610;70;10;160;10</additional_attributes></element><element><id>Relation</id><coordinates><x>456</x><y>346</y><w>4</w><h>12</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;610;60;610;70;10;160;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1460</x><y>1730</y><w>20</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>366</x><y>344</y><w>4</w><h>16</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>1010</x><y>1720</y><w>20</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>352</x><y>358</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>940</x><y>1790</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 HeaderTabContainer
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>367</x><y>365</y><w>4</w><h>17</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1015</x><y>1825</y><w>20</w><h>85</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>352</x><y>380</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>940</x><y>1900</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 HeaderTabWrapper
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>382</y><w>12</w><h>19</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>890</x><y>1910</y><w>60</w><h>95</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>100;10;10;10;10;170</additional_attributes></element><element><id>UMLClass</id><coordinates><x>326</x><y>399</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>100;10;10;10;10;170</additional_attributes></element><element><id>UMLClass</id><coordinates><x>810</x><y>1995</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 ProfileImage
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>367</x><y>398</y><w>16</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1015</x><y>1990</y><w>80</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 FollowButton
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>368</x><y>387</y><w>4</w><h>13</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1020</x><y>1935</y><w>20</w><h>65</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>455</x><y>382</y><w>4</w><h>14</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>1455</x><y>1910</y><w>20</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>446</x><y>394</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1410</x><y>1970</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 StatisticsPage
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>446</x><y>375</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1410</x><y>1875</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 AuthorContentWrapper
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>456</x><y>363</y><w>4</w><h>14</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1460</x><y>1815</y><w>20</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>446</x><y>356</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1410</x><y>1780</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 AuthorContentContainer
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>318</x><y>327</y><w>185</w><h>119</h></coordinates><panel_attributes>AuthorProfilePage</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>346</x><y>387</y><w>16</w><h>31</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>770</x><y>1635</y><w>925</w><h>595</h></coordinates><panel_attributes>AuthorProfilePage</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>910</x><y>1935</y><w>80</w><h>155</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>130;10;130;280;10;280</additional_attributes></element><element><id>UMLClass</id><coordinates><x>326</x><y>410</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>130;10;130;280;10;280</additional_attributes></element><element><id>UMLClass</id><coordinates><x>810</x><y>2050</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 ProfileData
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>474</x><y>377</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1550</x><y>1885</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 PublicationsPage
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>466</x><y>379</y><w>10</w><h>4</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1510</x><y>1895</y><w>50</w><h>20</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>426</x><y>417</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1310</x><y>2085</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 StatisticsGraph
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>441</x><y>397</y><w>7</w><h>22</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1385</x><y>1985</y><w>35</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1..*</panel_attributes><additional_attributes>50;10;10;10;10;200</additional_attributes></element><element><id>UMLClass</id><coordinates><x>452</x><y>416</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1..*</panel_attributes><additional_attributes>50;10;10;10;10;200</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1440</x><y>2080</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 StatisticsData
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>401</y><w>5</w><h>17</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1480</x><y>2005</y><w>25</w><h>85</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1..*</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>476</x><y>397</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1..*</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1560</x><y>1985</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 PublicationsContainer
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>484</x><y>384</y><w>4</w><h>15</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1600</x><y>1920</y><w>20</w><h>75</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>477</x><y>414</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1565</x><y>2070</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 PublicationsWrapper
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>404</y><w>4</w><h>12</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1610</x><y>2020</y><w>20</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>477</x><y>430</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1565</x><y>2150</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 PublicationItem
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>488</x><y>421</y><w>4</w><h>11</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1620</x><y>2105</y><w>20</w><h>55</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>578</x><y>279</y><w>14</w><h>9</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2070</x><y>1395</y><w>70</w><h>45</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 SignUp/LoginButton
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>586</x><y>259</y><w>4</w><h>22</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2110</x><y>1295</y><w>20</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;200</additional_attributes></element><element><id>UMLClass</id><coordinates><x>367</x><y>410</y><w>16</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;200</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1015</x><y>2050</y><w>80</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 CompareButton
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>361</x><y>387</y><w>8</w><h>31</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>985</x><y>1935</y><w>40</w><h>155</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;280;60;280</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>234</x><y>148</y><w>99</w><h>82</h></coordinates><panel_attributes>AuthorComparisonPage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>241</x><y>155</y><w>25</w><h>13</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;280;60;280</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>220</x><y>740</y><w>625</w><h>395</h></coordinates><panel_attributes>AuthorComparisonPage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>385</x><y>775</y><w>125</w><h>65</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 AuthorComparisonPage
 --
 -  comparisonTable: ComparisonTable
 --
 +AuthorComparisonPage()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>241</x><y>175</y><w>27</w><h>15</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>385</x><y>875</y><w>135</w><h>75</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 ComparisonTable
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>198</y><w>31</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>990</y><w>155</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 ComparisonContainer
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>214</y><w>31</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>1070</y><w>155</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 ComparisonWrapper
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>291</x><y>214</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>635</x><y>1070</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 AuthorEntry
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>291</x><y>197</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>635</x><y>985</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 AuthorEntryContainer
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>292</x><y>180</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>640</x><y>900</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 AuthorEntryWrapper
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>274</x><y>161</y><w>17</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>805</y><w>85</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 AuthorImage
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>295</x><y>161</y><w>17</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>655</x><y>805</y><w>85</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 RadarGraph
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>317</x><y>161</y><w>14</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>765</x><y>805</y><w>70</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 AuthorStatistics
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>408</x><y>242</y><w>4</w><h>11</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1220</x><y>1210</y><w>20</w><h>55</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>252</x><y>167</y><w>4</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>835</y><w>20</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>253</x><y>189</y><w>4</w><h>11</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>445</x><y>945</y><w>20</w><h>55</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>253</x><y>205</y><w>4</w><h>11</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>445</x><y>1025</y><w>20</w><h>55</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>217</y><w>23</w><h>4</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>1085</y><w>115</w><h>20</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1..4</panel_attributes><additional_attributes>10;10;210;10</additional_attributes></element><element><id>Relation</id><coordinates><x>301</x><y>204</y><w>4</w><h>12</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1..4</panel_attributes><additional_attributes>10;10;210;10</additional_attributes></element><element><id>Relation</id><coordinates><x>685</x><y>1020</y><w>20</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>301</x><y>187</y><w>4</w><h>12</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>685</x><y>935</y><w>20</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>301</x><y>168</y><w>4</w><h>14</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>685</x><y>840</y><w>20</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>281</x><y>168</y><w>13</w><h>19</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>585</x><y>840</y><w>65</w><h>95</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>110;160;10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>312</x><y>168</y><w>14</w><h>20</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>110;160;10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>740</x><y>840</y><w>70</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;170;110;170;110;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>358</x><y>189</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;170;110;170;110;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>970</x><y>945</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 AuthorHeader
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>561</x><y>306</y><w>70</w><h>75</h></coordinates><panel_attributes>AuthorHeader</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>587</x><y>311</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1985</x><y>1530</y><w>350</w><h>375</h></coordinates><panel_attributes>AuthorHeader</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2115</x><y>1555</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 AuthorHeader
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>601</x><y>318</y><w>4</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2185</x><y>1590</y><w>20</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>587</x><y>326</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2115</x><y>1630</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 HeaderTabContainer
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>602</x><y>333</y><w>4</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2190</x><y>1665</y><w>20</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>587</x><y>341</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2115</x><y>1705</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 HeaderTabWrapper
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>589</x><y>348</y><w>4</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2125</x><y>1740</y><w>20</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>572</x><y>356</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2040</x><y>1780</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 ProfileImage
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>572</x><y>369</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2040</x><y>1845</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 ProfileData
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>592</x><y>348</y><w>7</w><h>29</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2140</x><y>1740</y><w>35</w><h>145</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>40;10;40;260;10;260</additional_attributes></element><element><id>UMLClass</id><coordinates><x>605</x><y>369</y><w>16</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>40;10;40;260;10;260</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2205</x><y>1845</y><w>80</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 CompareButton
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>598</x><y>348</y><w>9</w><h>28</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2170</x><y>1740</y><w>45</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;250;70;250</additional_attributes></element><element><id>UMLClass</id><coordinates><x>602</x><y>356</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;250;70;250</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2190</x><y>1780</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 FollowButton
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>376</x><y>181</y><w>5</w><h>10</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1060</x><y>905</y><w>25</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1..*</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>237</x><y>274</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+m2=1..*</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>365</x><y>1370</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 AdvancedSearchTab
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>560</x><y>394</y><w>79</w><h>59</h></coordinates><panel_attributes>PublicationResult</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>586</x><y>398</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1980</x><y>1970</y><w>395</w><h>295</h></coordinates><panel_attributes>PublicationResult</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2110</x><y>1990</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 PublicationResult
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>586</x><y>412</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2110</x><y>2060</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 PublicationContainer
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>586</x><y>426</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2110</x><y>2130</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 PublicationWrapper
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>561</x><y>440</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1985</x><y>2200</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 PublicationTitle
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>586</x><y>440</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2110</x><y>2200</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 PublicationAbstract
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>611</x><y>440</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2235</x><y>2200</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 BookmarkButton
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>596</x><y>433</y><w>4</w><h>9</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2160</x><y>2165</y><w>20</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>596</x><y>419</y><w>4</w><h>9</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>2160</x><y>2095</y><w>20</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>596</x><y>405</y><w>4</w><h>9</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>2160</x><y>2025</y><w>20</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>571</x><y>429</y><w>17</w><h>13</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>2035</x><y>2145</y><w>85</w><h>65</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>150;10;10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>606</x><y>429</y><w>19</w><h>13</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>150;10;10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>2210</x><y>2145</y><w>95</w><h>65</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;160;10;160;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>253</x><y>338</y><w>21</w><h>8</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;160;10;160;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>1690</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 AuthorHeader
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>264</x><y>326</y><w>17</w><h>14</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>325</x><y>1630</y><w>85</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1..*</panel_attributes><additional_attributes>150;10;10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>247</x><y>261</y><w>36</w><h>15</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1..*</panel_attributes><additional_attributes>150;10;10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>415</x><y>1305</y><w>180</w><h>75</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=1
 
-</panel_attributes><additional_attributes>340;20;10;20;10;130</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>216</x><y>136</y><w>300</w><h>328</h></coordinates><panel_attributes>Pages</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>188</x><y>115</y><w>512</w><h>369</h></coordinates><panel_attributes>Components</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+</panel_attributes><additional_attributes>340;20;10;20;10;130</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>175</x><y>680</y><w>1585</w><h>1640</h></coordinates><panel_attributes>Pages</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>120</x><y>575</y><w>2560</w><h>1845</h></coordinates><panel_attributes>Components</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1390</x><y>355</y><w>40</w><h>240</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;460;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>235</x><y>1070</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+AddAuthorButton
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>1005</y><w>110</w><h>75</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes><additional_attributes>200;10;10;10;10;130</additional_attributes></element></diagram>
