@@ -35,7 +35,7 @@ IIndex
 -frequentCoAuthors: List&lt;String&gt;
 -frequentCiters: List&lt;String&gt;
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>888</x><y>180</y><w>180</w><h>300</h></coordinates><panel_attributes>users</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>894</x><y>204</y><w>162</w><h>138</h></coordinates><panel_attributes>UserEntity
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>888</x><y>180</y><w>180</w><h>300</h></coordinates><panel_attributes>users</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>894</x><y>204</y><w>162</w><h>144</h></coordinates><panel_attributes>UserEntity
 {Entity}
 --
 -mail: String
@@ -50,7 +50,8 @@ IIndex
 +bookmark(paper: JSONObject): void
 +follow(author: JSONObject): void
 +addInterest(interest: String): void
-+addRecommendations(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>894</x><y>390</y><w>162</w><h>84</h></coordinates><panel_attributes>UserRepository
++addRecommendations(): void
++setActive(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>894</x><y>390</y><w>162</w><h>84</h></coordinates><panel_attributes>UserRepository
 {Repository}
 --
 
@@ -59,10 +60,10 @@ IIndex
 #delete(user: UserEntity): boolean
 #create(user: UserEntity): boolean
 #findByOID(id: long): UserEntity
-#edit(user: UserEntity): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>954</x><y>336</y><w>48</w><h>66</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+#edit(user: UserEntity): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>954</x><y>342</y><w>48</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 m2=0..*
-stores ^</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>576</y><w>420</w><h>264</h></coordinates><panel_attributes>APICommunication</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>36</x><y>708</y><w>222</w><h>54</h></coordinates><panel_attributes>SemanticScholarCommunication
+stores ^</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>576</y><w>420</w><h>264</h></coordinates><panel_attributes>APICommunication</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>36</x><y>708</y><w>222</w><h>54</h></coordinates><panel_attributes>SemanticScholarCommunication
 --
 
 --
@@ -122,7 +123,7 @@ all classes that inherit from a specific class.
 In this case all Inices.
 Buuuuuuuut reflections is evil soooo
 probably gonna end up using an enum</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>954</x><y>912</y><w>18</w><h>54</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1200</x><y>510</y><w>324</w><h>222</h></coordinates><panel_attributes>UserDB</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1032</x><y>468</y><w>180</w><h>96</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;access&gt;&gt;</panel_attributes><additional_attributes>10;10;10;140;280;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1296</x><y>528</y><w>126</w><h>84</h></coordinates><panel_attributes>&lt;&lt;table&gt;&gt;
+&lt;&lt;access&gt;&gt;</panel_attributes><additional_attributes>10;10;10;140;280;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1296</x><y>528</y><w>126</w><h>90</h></coordinates><panel_attributes>&lt;&lt;table&gt;&gt;
 User
 --
 -OID: long
@@ -131,6 +132,7 @@ User
 -interests: List&lt;String&gt;
 -bookmarks: paper
 -follows: author
+-active: boolean
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>702</x><y>882</y><w>90</w><h>24</h></coordinates><panel_attributes>lt=.&gt;
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>462</x><y>582</y><w>282</w><h>372</h></coordinates><panel_attributes>DataModification</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>366</x><y>654</y><w>114</w><h>24</h></coordinates><panel_attributes>lt=.&gt;
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>504</x><y>864</y><w>204</w><h>78</h></coordinates><panel_attributes>AdditionalCalculations
