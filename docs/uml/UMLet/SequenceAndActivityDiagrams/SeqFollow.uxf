@@ -1,0 +1,28 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>3</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLFrame</id><coordinates><x>222</x><y>435</y><w>270</w><h>186</h></coordinates><panel_attributes>Fllow Author
+--
+
+-.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>231</x><y>462</y><w>54</w><h>144</h></coordinates><panel_attributes>view interaction frame</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>240</x><y>480</y><w>36</w><h>9</h></coordinates><panel_attributes>_:AuthorProfilePage_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>252</x><y>486</y><w>9</w><h>123</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;390</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>252</x><y>498</y><w>6</w><h>87</h></coordinates><panel_attributes>
+bg=white
+transparency=50</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>255</x><y>495</y><w>72</w><h>18</h></coordinates><panel_attributes>lt=&lt;&lt;-
+data =
+followAuthor
+(:authorEntity, uid)</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>300</x><y>462</y><w>54</w><h>144</h></coordinates><panel_attributes>controller interaction frame</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>309</x><y>483</y><w>36</w><h>9</h></coordinates><panel_attributes>_:FollowController_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>321</x><y>489</y><w>9</w><h>120</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;380</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>321</x><y>501</y><w>6</w><h>66</h></coordinates><panel_attributes>
+bg=white
+transparency=50</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>501</y><w>66</w><h>12</h></coordinates><panel_attributes>lt=&lt;&lt;-
+addFollow(authorEntity, uid)</panel_attributes><additional_attributes>200;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>366</x><y>462</y><w>114</w><h>144</h></coordinates><panel_attributes>model interaction frame</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>369</x><y>483</y><w>33</w><h>9</h></coordinates><panel_attributes>_:FollowRepository_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>384</x><y>489</y><w>9</w><h>120</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;380</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>384</x><y>507</y><w>6</w><h>45</h></coordinates><panel_attributes>
+bg=white
+transparency=50</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>387</x><y>513</y><w>63</w><h>12</h></coordinates><panel_attributes>lt=&lt;&lt;-
+ addFollow(authorEntity, uid)</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>432</x><y>483</y><w>27</w><h>9</h></coordinates><panel_attributes>_:Follow_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>444</x><y>489</y><w>9</w><h>123</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;390</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>444</x><y>519</y><w>6</w><h>24</h></coordinates><panel_attributes>
+bg=white
+transparency=50</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>387</x><y>537</y><w>63</w><h>15</h></coordinates><panel_attributes>lt=.&gt;
+m2=
+return 
+true</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>546</y><w>66</w><h>15</h></coordinates><panel_attributes>lt=.&gt;
+m2=
+return 
+true</panel_attributes><additional_attributes>200;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>255</x><y>561</y><w>72</w><h>15</h></coordinates><panel_attributes>lt=.&gt;
+m2=
+return 
+true</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>255</x><y>570</y><w>54</w><h>18</h></coordinates><panel_attributes>lt=&lt;&lt;-
+toggleFollowButton()</panel_attributes><additional_attributes>10;40;40;40;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>258</x><y>573</y><w>54</w><h>18</h></coordinates><panel_attributes>lt=&lt;&lt;-
+toggleFollowButton()</panel_attributes><additional_attributes>10;40;40;40;40;10;10;10</additional_attributes></element></diagram>
