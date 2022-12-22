@@ -1,24 +1,4 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram </help_text><element><id>UMLPackage</id><coordinates><x>1300</x><y>1220</y><w>510</w><h>310</h></coordinates><panel_attributes>indices</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1420</x><y>1280</y><w>210</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
-IIndex
---
-+calculate(List&lt;Int&gt; args): Int
-+getName(): String
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1570</x><y>1410</y><w>210</w><h>100</h></coordinates><panel_attributes>H-Index
-{Singleton}
---
--name: String
---
-#calculate(List&lt;Int&gt; args): Int
-#getName(): String
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1600</x><y>1340</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;70;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1330</x><y>1410</y><w>210</w><h>100</h></coordinates><panel_attributes>I10-Index
-{Singleton}
---
--name: String
---
-#calculate(List&lt;Int&gt; args): Int
-#getName(): String
-
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1430</x><y>1340</y><w>100</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>80;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1160</x><y>570</y><w>250</w><h>150</h></coordinates><panel_attributes>PaperEntity
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for  </help_text><element><id>UMLPackage</id><coordinates><x>1310</x><y>1390</y><w>270</w><h>200</h></coordinates><panel_attributes>indices</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1160</x><y>570</y><w>250</w><h>150</h></coordinates><panel_attributes>PaperEntity
 {Entity}
 --
 -authors: List&lt;String&gt;
@@ -86,7 +66,7 @@ respective class</panel_attributes><additional_attributes></additional_attribute
 --
 -getAPIKey(): String
 -doAPICall(searchType: String, filters: List&lt;String&gt;): JSONObject</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>1140</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>780</x><y>1020</y><w>450</w><h>130</h></coordinates><panel_attributes>DataMerger
-{Singleton}
+{Service}
 --
 -APIs: List&lt;APICommunication&gt;
 --
@@ -95,13 +75,13 @@ respective class</panel_attributes><additional_attributes></additional_attribute
 #getData(searchType: String, filters: List&lt;String&gt;): JSONObject
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>780</x><y>1230</y><w>450</w><h>110</h></coordinates><panel_attributes>DataCleaner
-{Singleton}
+{Service}
 --
 -merger: DataMerger
 -calculator: AdditionalCalculations
 --
 -cleanData(data: JSONObject): JSONObject
-+getData(searchType: String, filters: List&lt;String&gt;, sortKey: String): JSONObject
++getData(searchType: String, filters: List&lt;String&gt;): JSONObject
 
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1000</x><y>1140</y><w>40</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
@@ -117,12 +97,7 @@ m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;230;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1350</x><y>0</y><w>100</w><h>70</h></coordinates><panel_attributes>controllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1000</x><y>750</y><w>80</w><h>260</h></coordinates><panel_attributes>lt=.&gt;
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;240</additional_attributes></element><element><id>UMLNote</id><coordinates><x>530</x><y>600</y><w>140</w><h>70</h></coordinates><panel_attributes>JSONObjet is read and
 the according vars of 
-the Entity are set</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>540</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLNote</id><coordinates><x>1480</x><y>1590</y><w>250</w><h>100</h></coordinates><panel_attributes>Using the 
-org.reflections library,it is possible to get 
-all classes that inherit from a specific class. 
-In this case all Inices.
-Buuuuuuuut reflections is evil soooo
-probably gonna end up using an enum</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1590</x><y>1520</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>2000</x><y>850</y><w>540</w><h>370</h></coordinates><panel_attributes>UserDB</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1720</x><y>780</y><w>300</w><h>160</h></coordinates><panel_attributes>lt=.&gt;
+the Entity are set</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>540</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>2000</x><y>850</y><w>540</w><h>370</h></coordinates><panel_attributes>UserDB</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1720</x><y>780</y><w>300</w><h>160</h></coordinates><panel_attributes>lt=.&gt;
 &lt;&lt;access&gt;&gt;</panel_attributes><additional_attributes>10;10;10;140;280;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2160</x><y>880</y><w>210</w><h>150</h></coordinates><panel_attributes>&lt;&lt;table&gt;&gt;
 User
 --
@@ -133,10 +108,10 @@ User
 -bookmarks: paper
 -follows: author
 -active: boolean
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1170</x><y>1470</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>770</x><y>970</y><w>470</w><h>620</h></coordinates><panel_attributes>DataModification</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>1090</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>840</x><y>1440</y><w>340</w><h>140</h></coordinates><panel_attributes>AdditionalCalculations
-{Singleton}
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1190</x><y>1480</y><w>140</w><h>40</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>770</x><y>970</y><w>470</w><h>620</h></coordinates><panel_attributes>DataModification</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>1090</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>820</x><y>1440</y><w>380</w><h>140</h></coordinates><panel_attributes>AdditionalCalculations
+{Service}
 --
 -cleaner: DataCleaner
 --
@@ -150,20 +125,22 @@ m2=1</panel_attributes><additional_attributes>10;10;10;110</additional_attribute
 cleaner might not be necessary 
 as it only would be needed for 
 getting the paper dataof a given 
-author via more API calls</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>1480</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;120;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1380</x><y>930</y><w>520</w><h>130</h></coordinates><panel_attributes>recommendation</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1390</x><y>970</y><w>500</w><h>70</h></coordinates><panel_attributes>RecommendationHandler
+author via more API calls</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>1480</y><w>120</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1380</x><y>930</y><w>520</w><h>140</h></coordinates><panel_attributes>recommendation</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1390</x><y>970</y><w>500</w><h>80</h></coordinates><panel_attributes>RecommendationHandler
+{Service}
 --
 -cleaner: DataCleaner
 --
 +getRecommendations(interests: List&lt;String&gt;, follows: List&lt;String&gt;): List&lt;JSONObject&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1230</x><y>1000</y><w>170</w><h>40</h></coordinates><panel_attributes>lt=.&gt;
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1630</x><y>780</y><w>80</w><h>190</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;170;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>1510</x><y>1080</y><w>210</w><h>80</h></coordinates><panel_attributes>This class would just be responsible 
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;170;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>1510</x><y>1090</y><w>210</w><h>80</h></coordinates><panel_attributes>This class would just be responsible 
 for doing additional API calls to 
 get the recommendations
-based on interests and follows</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1580</x><y>1030</y><w>30</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>520</x><y>450</y><w>470</w><h>100</h></coordinates><panel_attributes>SearchParser
+based on interests and follows</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1580</x><y>1040</y><w>30</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>520</x><y>450</y><w>470</w><h>100</h></coordinates><panel_attributes>SearchParser
+{Service}
 --
 _-cleaner: &lt;DataCleaner&gt; {readOnly}_
 --
-+getResult(search: String, filters: List&lt;String&gt;, sortKey: String): List&lt;SearchEntity&gt;
++getResult(search: String, filters: List&lt;String&gt;): List&lt;SearchEntity&gt;
 -createEntity(json: JSONObject): SearchEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>380</y><w>310</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
 m1=0..*
 m2=1
@@ -219,14 +196,23 @@ stores ^</panel_attributes><additional_attributes>10;120;10;10</additional_attri
 m1=1
 m2=0..*
 stores ^</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2240</x><y>700</y><w>80</w><h>190</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;access&gt;&gt;</panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>70</x><y>640</y><w>370</w><h>130</h></coordinates><panel_attributes>comparison</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>680</y><w>350</w><h>70</h></coordinates><panel_attributes>ComparisonHandler
+&lt;&lt;access&gt;&gt;</panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>70</x><y>640</y><w>370</w><h>140</h></coordinates><panel_attributes>comparison</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>680</y><w>350</w><h>80</h></coordinates><panel_attributes>ComparisonHandler
+{Service}
 --
 -cleaner: DataCleaner
 --
 +getCompareData(author: AuthorEntity): List&lt;JSONObject&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>130</x><y>520</y><w>250</w><h>60</h></coordinates><panel_attributes>Does a standart API call but uses different
 formatting for data so that there are no 
 additional calculationos needed</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>570</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>690</y><w>500</w><h>40</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;20;480;20</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>760</y><w>630</w><h>250</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;90;610;90;610;230</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>20</y><w>970</w><h>660</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;20;480;20</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>770</y><w>630</w><h>240</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80;610;80;610;220</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>20</y><w>970</w><h>660</h></coordinates><panel_attributes>lt=.&gt;
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>950;20;10;20;10;640</additional_attributes></element><element><id>Relation</id><coordinates><x>1440</x><y>30</y><w>1190</w><h>1260</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;1120;10;1130;1240;440;1240;440;1030</additional_attributes></element></diagram>
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;1120;10;1130;1240;440;1240;440;1040</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1340</x><y>1440</y><w>210</w><h>120</h></coordinates><panel_attributes>&lt;&lt;enumeration&gt;&gt;
+Indices
+--
+H-INDEX
+I10-INDEX
+--
++calculate(List&lt;Int&gt; args): Int
++getName(): String
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
