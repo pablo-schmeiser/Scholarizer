@@ -26,12 +26,12 @@ JasonObject</panel_attributes><additional_attributes>240;20;10;20</additional_at
  result = getData(:searchType,null,null)</panel_attributes><additional_attributes>150;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>88</x><y>759</y><w>143</w><h>55</h></coordinates><panel_attributes>lt=&lt;&lt;-
 handleFilter()</panel_attributes><additional_attributes>20;30;40;30;40;10;10;10</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>1100</x><y>308</y><w>253</w><h>187</h></coordinates><panel_attributes>loop for each API</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>858</x><y>495</y><w>253</w><h>77</h></coordinates><panel_attributes>
 mergeData(:List&lt;JSONObject&gt;)
-lt=&lt;&lt;-</panel_attributes><additional_attributes>10;50;40;50;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>748</x><y>550</y><w>121</w><h>55</h></coordinates><panel_attributes>lt=.&gt;
+lt=&lt;&lt;-</panel_attributes><additional_attributes>20;50;40;50;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>748</x><y>550</y><w>121</w><h>55</h></coordinates><panel_attributes>lt=.&gt;
 m2=
 return 
 JasonObject</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>748</x><y>583</y><w>165</w><h>77</h></coordinates><panel_attributes>
 cleanData(:data)
-lt=&lt;&lt;-</panel_attributes><additional_attributes>10;50;40;50;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>638</y><w>209</w><h>55</h></coordinates><panel_attributes>lt=.&gt;
+lt=&lt;&lt;-</panel_attributes><additional_attributes>20;50;40;50;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>638</y><w>209</w><h>55</h></coordinates><panel_attributes>lt=.&gt;
 m2=
 return 
 JasonObject</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>726</y><w>154</w><h>33</h></coordinates><panel_attributes>lt=.&gt;
@@ -62,5 +62,9 @@ bg=white
 transparency=50</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1166</x><y>363</y><w>22</w><h>22</h></coordinates><panel_attributes>
 bg=white
 transparency=50</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>88</x><y>770</y><w>22</w><h>22</h></coordinates><panel_attributes>
+bg=white
+transparency=50</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>748</x><y>627</y><w>22</w><h>22</h></coordinates><panel_attributes>
+bg=white
+transparency=50</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>858</x><y>539</y><w>22</w><h>22</h></coordinates><panel_attributes>
 bg=white
 transparency=50</panel_attributes><additional_attributes></additional_attributes></element></diagram>
