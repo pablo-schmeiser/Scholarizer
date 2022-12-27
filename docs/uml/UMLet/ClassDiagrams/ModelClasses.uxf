@@ -71,7 +71,7 @@ respective class</panel_attributes><additional_attributes></additional_attribute
 -APIs: List&lt;APICommunication&gt;
 --
 -getAllResponses(params: List&lt;String&gt;): List&lt;JSONObject&gt;
--mergeData(List&lt;JSONObject&gt;): JSONObject
+-mergeData(responses: List&lt;JSONObject&gt;): JSONObject
 #getData(searchType: SearchType, filters: List&lt;String&gt;): JSONObject
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>702</x><y>1242</y><w>405</w><h>99</h></coordinates><panel_attributes>DataCleaner
