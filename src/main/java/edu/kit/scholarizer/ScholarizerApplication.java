@@ -1,4 +1,4 @@
-package com.kit.ces.scholarizer;
+package edu.kit.scholarizer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
