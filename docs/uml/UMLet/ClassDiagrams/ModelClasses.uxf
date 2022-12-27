@@ -43,7 +43,7 @@
 #edit(user: UserEntity): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1431</x><y>648</y><w>72</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 m2=0..*
-stores ^</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>999</y><w>630</w><h>396</h></coordinates><panel_attributes>APICommunication</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>54</x><y>1197</y><w>360</w><h>81</h></coordinates><panel_attributes>SemanticScholarCommunication
+stores ^</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>999</y><w>630</w><h>396</h></coordinates><panel_attributes>apiCommunication</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>54</x><y>1197</y><w>360</w><h>81</h></coordinates><panel_attributes>SemanticScholarCommunication
 --
 
 --
@@ -97,7 +97,7 @@ m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;380;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1215</x><y>0</y><w>90</w><h>63</h></coordinates><panel_attributes>controllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>810</y><w>72</w><h>234</h></coordinates><panel_attributes>lt=.&gt;
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;240</additional_attributes></element><element><id>UMLNote</id><coordinates><x>468</x><y>468</y><w>126</w><h>63</h></coordinates><panel_attributes>JSONObjet is read and
 the according vars of 
-the Entity are set</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>585</x><y>495</y><w>45</w><h>63</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>30;50;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1800</x><y>900</y><w>486</w><h>333</h></coordinates><panel_attributes>UserDB</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1548</x><y>837</y><w>270</w><h>144</h></coordinates><panel_attributes>lt=.&gt;
+the Entity are set</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>585</x><y>495</y><w>45</w><h>63</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>30;50;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1800</x><y>900</y><w>486</w><h>333</h></coordinates><panel_attributes>userDB</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1548</x><y>837</y><w>270</w><h>144</h></coordinates><panel_attributes>lt=.&gt;
 &lt;&lt;access&gt;&gt;</panel_attributes><additional_attributes>10;10;10;140;280;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1944</x><y>927</y><w>189</w><h>135</h></coordinates><panel_attributes>&lt;&lt;table&gt;&gt;
 User
 --
@@ -109,7 +109,7 @@ User
 -follows: author
 -active: boolean
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1071</x><y>1467</y><w>126</w><h>36</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>693</x><y>1008</y><w>423</w><h>558</h></coordinates><panel_attributes>DataModification</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>567</x><y>1116</y><w>153</w><h>36</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>693</x><y>1008</y><w>423</w><h>558</h></coordinates><panel_attributes>dataModification</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>567</x><y>1116</y><w>153</w><h>36</h></coordinates><panel_attributes>lt=.&gt;
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>738</x><y>1431</y><w>342</w><h>126</h></coordinates><panel_attributes>AdditionalCalculations
 {Service}
 --
