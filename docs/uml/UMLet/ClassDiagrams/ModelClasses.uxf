@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>6</zoom_level><help_text>Space for  </help_text><element><id>UMLPackage</id><coordinates><x>786</x><y>924</y><w>162</w><h>120</h></coordinates><panel_attributes>indices</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>696</x><y>432</y><w>150</w><h>90</h></coordinates><panel_attributes>PaperEntity
+<diagram program="umletino" version="15.0.0"><zoom_level>9</zoom_level><help_text>Space for  </help_text><element><id>UMLPackage</id><coordinates><x>1179</x><y>1386</y><w>243</w><h>153</h></coordinates><panel_attributes>indices</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1044</x><y>648</y><w>225</w><h>135</h></coordinates><panel_attributes>PaperEntity
 {Entity}
 --
 -authors: List&lt;String&gt;
@@ -7,7 +7,7 @@
 -publicationDate: Date
 -url: String
 --
-+exportReference(bibTex: boolean): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>288</x><y>252</y><w>1170</w><h>324</h></coordinates><panel_attributes>springEntities</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>546</x><y>432</y><w>126</w><h>90</h></coordinates><panel_attributes>AuthorEntity
++exportReference(bibTex: boolean): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>432</x><y>378</y><w>1755</w><h>486</h></coordinates><panel_attributes>springEntities</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>819</x><y>648</y><w>189</w><h>135</h></coordinates><panel_attributes>AuthorEntity
 {Entity}
 --
 -name: String
@@ -15,7 +15,7 @@
 -frequentCoAuthors: List&lt;String&gt;
 -frequentCiters: List&lt;String&gt;
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>888</x><y>270</y><w>180</w><h>300</h></coordinates><panel_attributes>users</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>894</x><y>294</y><w>162</w><h>144</h></coordinates><panel_attributes>UserEntity
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1332</x><y>405</y><w>270</w><h>450</h></coordinates><panel_attributes>users</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1341</x><y>441</y><w>243</w><h>216</h></coordinates><panel_attributes>UserEntity
 {Entity}
 --
 -mail: Email
@@ -31,7 +31,7 @@
 +follow(author: JSONObject): void
 +addInterest(interest: String): void
 +addRecommendations(): void
-+setActive(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>894</x><y>480</y><w>162</w><h>84</h></coordinates><panel_attributes>UserRepository
++setActive(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1341</x><y>720</y><w>243</w><h>126</h></coordinates><panel_attributes>UserRepository
 {Repository}
 --
 
@@ -40,18 +40,18 @@
 #delete(user: UserEntity): boolean
 #create(user: UserEntity): boolean
 #findByOID(id: long): UserEntity
-#edit(user: UserEntity): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>954</x><y>432</y><w>48</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+#edit(user: UserEntity): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1431</x><y>648</y><w>72</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 m2=0..*
-stores ^</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>666</y><w>420</w><h>264</h></coordinates><panel_attributes>APICommunication</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>36</x><y>798</y><w>240</w><h>54</h></coordinates><panel_attributes>SemanticScholarCommunication
+stores ^</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>999</y><w>630</w><h>396</h></coordinates><panel_attributes>APICommunication</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>54</x><y>1197</y><w>360</w><h>81</h></coordinates><panel_attributes>SemanticScholarCommunication
 --
 
 --
 -getAPIKey(): String
--doAPICall(searchType: SearchType, filters: List&lt;String&gt;): JSONObject</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>6</x><y>696</y><w>96</w><h>42</h></coordinates><panel_attributes>API Key stored in ".env"
+-doAPICall(searchType: SearchType, filters: List&lt;String&gt;): JSONObject</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>9</x><y>1044</y><w>144</w><h>63</h></coordinates><panel_attributes>API Key stored in ".env"
 is read and returned by
 getAPIKey() of the 
-respective class</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>96</x><y>714</y><w>66</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>90;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>696</y><w>234</w><h>84</h></coordinates><panel_attributes>/APICommunication/
+respective class</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>144</x><y>1071</y><w>99</w><h>45</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>90;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>225</x><y>1044</y><w>351</w><h>126</h></coordinates><panel_attributes>/APICommunication/
 {abstract}
 --
 
@@ -60,12 +60,12 @@ respective class</panel_attributes><additional_attributes></additional_attribute
 /-doAPICall(params: List&lt;String&gt;): JSONObject/
 +getData(searchType: SearchType, filters: List&lt;String&gt;): JSONObject
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>174</x><y>774</y><w>18</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>168</x><y>864</y><w>240</w><h>54</h></coordinates><panel_attributes>IEEEXploreCommunication
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>261</x><y>1161</y><w>27</w><h>54</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>252</x><y>1296</y><w>360</w><h>81</h></coordinates><panel_attributes>IEEEXploreCommunication
 --
 
 --
 -getAPIKey(): String
--doAPICall(searchType: SearchType, filters: List&lt;String&gt;): JSONObject</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>336</x><y>774</y><w>18</w><h>102</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>468</x><y>702</y><w>270</w><h>78</h></coordinates><panel_attributes>DataMerger
+-doAPICall(searchType: SearchType, filters: List&lt;String&gt;): JSONObject</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>1161</y><w>27</w><h>153</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>702</x><y>1053</y><w>405</w><h>117</h></coordinates><panel_attributes>DataMerger
 {Service}
 --
 -APIs: List&lt;APICommunication&gt;
@@ -74,7 +74,7 @@ respective class</panel_attributes><additional_attributes></additional_attribute
 -mergeData(List&lt;JSONObject&gt;): JSONObject
 #getData(searchType: SearchType, filters: List&lt;String&gt;): JSONObject
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>468</x><y>828</y><w>270</w><h>66</h></coordinates><panel_attributes>DataCleaner
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>702</x><y>1242</y><w>405</w><h>99</h></coordinates><panel_attributes>DataCleaner
 {Service}
 --
 -merger: DataMerger
@@ -84,21 +84,21 @@ respective class</panel_attributes><additional_attributes></additional_attribute
 +getData(searchType: SearchType, filters: List&lt;String&gt;): JSONObject
 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>774</y><w>24</w><h>66</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>1161</y><w>36</w><h>99</h></coordinates><panel_attributes>lt=&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>306</x><y>294</y><w>558</w><h>252</h></coordinates><panel_attributes>search</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>624</x><y>312</y><w>156</w><h>90</h></coordinates><panel_attributes>/SearchEntity/
+m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>459</x><y>441</y><w>837</w><h>378</h></coordinates><panel_attributes>search</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>936</x><y>468</y><w>234</w><h>135</h></coordinates><panel_attributes>/SearchEntity/
 {abstract}
 --
 -citations: int
 -NonSelfCitations: int
 -NoCoAuthorsCitations: int
--indices: List&lt;Index&gt;
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>396</y><w>18</w><h>48</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>642</x><y>396</y><w>18</w><h>48</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>834</x><y>36</y><w>48</w><h>240</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;380;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>810</x><y>0</y><w>60</w><h>42</h></coordinates><panel_attributes>controllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>540</y><w>48</w><h>156</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;240</additional_attributes></element><element><id>UMLNote</id><coordinates><x>312</x><y>312</y><w>84</w><h>42</h></coordinates><panel_attributes>JSONObjet is read and
+-indices: List&lt;int&gt;
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1125</x><y>594</y><w>27</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>963</x><y>594</y><w>27</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>1251</x><y>54</y><w>72</w><h>360</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;380;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1215</x><y>0</y><w>90</w><h>63</h></coordinates><panel_attributes>controllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>810</y><w>72</w><h>234</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;240</additional_attributes></element><element><id>UMLNote</id><coordinates><x>468</x><y>468</y><w>126</w><h>63</h></coordinates><panel_attributes>JSONObjet is read and
 the according vars of 
-the Entity are set</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>330</y><w>30</w><h>42</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>30;50;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1200</x><y>600</y><w>324</w><h>222</h></coordinates><panel_attributes>UserDB</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1032</x><y>558</y><w>180</w><h>96</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;access&gt;&gt;</panel_attributes><additional_attributes>10;10;10;140;280;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1296</x><y>618</y><w>126</w><h>90</h></coordinates><panel_attributes>&lt;&lt;table&gt;&gt;
+the Entity are set</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>585</x><y>495</y><w>45</w><h>63</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>30;50;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1800</x><y>900</y><w>486</w><h>333</h></coordinates><panel_attributes>UserDB</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1548</x><y>837</y><w>270</w><h>144</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;access&gt;&gt;</panel_attributes><additional_attributes>10;10;10;140;280;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1944</x><y>927</y><w>189</w><h>135</h></coordinates><panel_attributes>&lt;&lt;table&gt;&gt;
 User
 --
 -OID: long
@@ -108,9 +108,9 @@ User
 -bookmarks: paper
 -follows: author
 -active: boolean
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>714</x><y>978</y><w>84</w><h>24</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>462</x><y>672</y><w>282</w><h>372</h></coordinates><panel_attributes>DataModification</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>378</x><y>744</y><w>102</w><h>24</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>492</x><y>954</y><w>228</w><h>84</h></coordinates><panel_attributes>AdditionalCalculations
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1071</x><y>1467</y><w>126</w><h>36</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>693</x><y>1008</y><w>423</w><h>558</h></coordinates><panel_attributes>DataModification</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>567</x><y>1116</y><w>153</w><h>36</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>738</x><y>1431</y><w>342</w><h>126</h></coordinates><panel_attributes>AdditionalCalculations
 {Service}
 --
 -cleaner: DataCleaner
@@ -119,36 +119,36 @@ User
 +selfCitationCalculation(authorData: JSONObject): void
 +coAuthorCalculation(authorData: JSONObject): void
 +frequentCitersCalculation(authorData: JSONObject): void
-+noSelfAndCoAuthorCalculation(authorData: JSONObject): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>888</y><w>24</w><h>78</h></coordinates><panel_attributes>lt=-&gt;
++noSelfAndCoAuthorCalculation(authorData: JSONObject): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>1332</y><w>36</w><h>117</h></coordinates><panel_attributes>lt=-&gt;
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>UMLNote</id><coordinates><x>324</x><y>972</y><w>114</w><h>54</h></coordinates><panel_attributes>Having a reference to the 
+m2=1</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>UMLNote</id><coordinates><x>486</x><y>1458</y><w>171</w><h>81</h></coordinates><panel_attributes>Having a reference to the 
 cleaner might not be necessary 
 as it only would be needed for 
 getting the paper dataof a given 
-author via more API calls</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>432</x><y>978</y><w>72</w><h>18</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>828</x><y>648</y><w>312</w><h>84</h></coordinates><panel_attributes>recommendation</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>834</x><y>672</y><w>300</w><h>48</h></coordinates><panel_attributes>RecommendationHandler
+author via more API calls</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>648</x><y>1467</y><w>108</w><h>27</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1242</x><y>972</y><w>468</w><h>126</h></coordinates><panel_attributes>recommendation</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1251</x><y>1008</y><w>450</w><h>72</h></coordinates><panel_attributes>RecommendationHandler
 {Service}
 --
 -cleaner: DataCleaner
 --
-+getRecommendations(interests: List&lt;String&gt;, follows: List&lt;String&gt;): List&lt;JSONObject&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>738</x><y>690</y><w>102</w><h>24</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>978</x><y>558</y><w>48</w><h>114</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;170;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>906</x><y>744</y><w>126</w><h>48</h></coordinates><panel_attributes>This class would just be responsible 
++getRecommendations(interests: List&lt;String&gt;, follows: List&lt;String&gt;): List&lt;JSONObject&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1107</x><y>1035</y><w>153</w><h>36</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1467</x><y>837</y><w>72</w><h>171</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;170;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>1359</x><y>1116</y><w>189</w><h>72</h></coordinates><panel_attributes>This class would just be responsible 
 for doing additional API calls to 
 get the recommendations
-based on interests and follows</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>948</x><y>714</y><w>18</w><h>42</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>312</x><y>360</y><w>282</w><h>60</h></coordinates><panel_attributes>SearchParser
+based on interests and follows</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1422</x><y>1071</y><w>27</w><h>63</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>468</x><y>540</y><w>423</w><h>90</h></coordinates><panel_attributes>SearchParser
 {Service}
 --
 _-cleaner: &lt;DataCleaner&gt; {readOnly}_
 --
 +getResult(search: String, filters: List&lt;SearchType&gt;): List&lt;SearchEntity&gt;
--createEntity(json: JSONObject): SearchEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>318</y><w>186</w><h>54</h></coordinates><panel_attributes>lt=&lt;-
+-createEntity(json: JSONObject): SearchEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>675</x><y>477</y><w>279</w><h>81</h></coordinates><panel_attributes>lt=&lt;-
 m1=0..*
 m2=1
-creates &gt;</panel_attributes><additional_attributes>290;20;10;20;10;70</additional_attributes></element><element><id>UMLNote</id><coordinates><x>366</x><y>618</y><w>96</w><h>42</h></coordinates><panel_attributes>Merger class not needed 
+creates &gt;</panel_attributes><additional_attributes>290;20;10;20;10;70</additional_attributes></element><element><id>UMLNote</id><coordinates><x>549</x><y>927</y><w>144</w><h>63</h></coordinates><panel_attributes>Merger class not needed 
 if we decide to only use 
-the Semantic Schloar API</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>414</x><y>654</y><w>72</w><h>60</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;100;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>792</x><y>594</y><w>78</w><h>18</h></coordinates><panel_attributes>java.util::Date
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>822</x><y>516</y><w>36</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
-use v</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1212</x><y>726</y><w>126</w><h>84</h></coordinates><panel_attributes>&lt;&lt;table&gt;&gt;
+the Semantic Schloar API</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>981</y><w>108</w><h>90</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;100;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1188</x><y>891</y><w>117</w><h>27</h></coordinates><panel_attributes>java.util::Date
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1233</x><y>774</y><w>54</w><h>135</h></coordinates><panel_attributes>lt=&lt;-
+use v</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1818</x><y>1089</y><w>189</w><h>126</h></coordinates><panel_attributes>&lt;&lt;table&gt;&gt;
 Bookmark
 --
 -OID: long
@@ -156,12 +156,12 @@ Bookmark
 -author: String
 -abstract: String
 -url: String
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1386</x><y>726</y><w>126</w><h>84</h></coordinates><panel_attributes>&lt;&lt;table&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2079</x><y>1089</y><w>189</w><h>126</h></coordinates><panel_attributes>&lt;&lt;table&gt;&gt;
 Follow
 --
 -OID: long
 -name: String
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1134</x><y>294</y><w>72</w><h>72</h></coordinates><panel_attributes>BookmarkEntity
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1701</x><y>441</y><w>108</w><h>108</h></coordinates><panel_attributes>BookmarkEntity
 {Entity}
 --
 -title: String
@@ -169,46 +169,46 @@ Follow
 -abstract: String
 -url: String
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1314</x><y>294</y><w>72</w><h>48</h></coordinates><panel_attributes>FollowEntity
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1971</x><y>441</y><w>108</w><h>72</h></coordinates><panel_attributes>FollowEntity
 {Entity}
 --
 -name: String
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1080</x><y>270</y><w>174</w><h>246</h></coordinates><panel_attributes>bookmarks</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1086</x><y>432</y><w>162</w><h>72</h></coordinates><panel_attributes>BookmarkRepository
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1620</x><y>405</y><w>261</w><h>369</h></coordinates><panel_attributes>bookmarks</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1629</x><y>648</y><w>243</w><h>108</h></coordinates><panel_attributes>BookmarkRepository
 {Repository}
 --
 
 --
 #delete(bookmark: BookmarkEntity): boolean
 #create(bookmark: BookmarkEntity): boolean
-#findByOID(id: long): BookmarkEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1164</x><y>360</y><w>48</w><h>84</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+#findByOID(id: long): BookmarkEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1746</x><y>540</y><w>72</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 m2=0..*
-stores ^</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1164</x><y>498</y><w>48</w><h>144</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;access&gt;&gt;</panel_attributes><additional_attributes>10;10;10;220;60;220</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1266</x><y>270</y><w>174</w><h>246</h></coordinates><panel_attributes>follows</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1272</x><y>432</y><w>162</w><h>72</h></coordinates><panel_attributes>FollowRepository
+stores ^</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1746</x><y>747</y><w>72</w><h>216</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;access&gt;&gt;</panel_attributes><additional_attributes>10;10;10;220;60;220</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1899</x><y>405</y><w>261</w><h>369</h></coordinates><panel_attributes>follows</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1908</x><y>648</y><w>243</w><h>108</h></coordinates><panel_attributes>FollowRepository
 {Repository}
 --
 
 --
 #delete(follow: FollowEntity): boolean
 #create(follow: FollowEntity): boolean
-#findByOID(id: long): BookmarkEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1344</x><y>336</y><w>48</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+#findByOID(id: long): BookmarkEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2016</x><y>504</y><w>72</w><h>162</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 m2=0..*
-stores ^</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1344</x><y>510</y><w>48</w><h>114</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;access&gt;&gt;</panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>42</x><y>474</y><w>222</w><h>90</h></coordinates><panel_attributes>comparison</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>48</x><y>498</y><w>210</w><h>60</h></coordinates><panel_attributes>ComparisonHandler
+stores ^</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2016</x><y>765</y><w>72</w><h>171</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;access&gt;&gt;</panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>63</x><y>711</y><w>333</w><h>135</h></coordinates><panel_attributes>comparison</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>72</x><y>747</y><w>315</w><h>90</h></coordinates><panel_attributes>ComparisonHandler
 {Service}
 --
 -cleaner: DataCleaner
 --
 +getCompareData(author: String): JSONObject
--createEntity(json: JSONObject): SearchEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>78</x><y>402</y><w>150</w><h>36</h></coordinates><panel_attributes>Does a standart API call but uses different
+-createEntity(json: JSONObject): SearchEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>117</x><y>603</y><w>225</w><h>54</h></coordinates><panel_attributes>Does a standart API call but uses different
 formatting for data so that there are no 
-additional calculationos needed</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>144</x><y>432</y><w>18</w><h>66</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>258</x><y>516</y><w>324</w><h>36</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;40;520;40;520;10</additional_attributes></element><element><id>Relation</id><coordinates><x>222</x><y>558</y><w>378</w><h>138</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;70;610;70;610;210</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>12</y><w>582</w><h>486</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>950;20;10;20;10;790</additional_attributes></element><element><id>Relation</id><coordinates><x>864</x><y>18</y><w>714</w><h>846</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;1120;10;1130;1390;440;1390;440;1190</additional_attributes></element><element><id>UMLClass</id><coordinates><x>804</x><y>954</y><w>126</w><h>72</h></coordinates><panel_attributes>&lt;&lt;enumeration&gt;&gt;
+additional calculationos needed</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>216</x><y>648</y><w>27</w><h>99</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>387</x><y>774</y><w>486</w><h>54</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;40;520;40;520;10</additional_attributes></element><element><id>Relation</id><coordinates><x>333</x><y>837</y><w>567</w><h>207</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;70;610;70;610;210</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>18</y><w>873</w><h>729</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>950;20;10;20;10;790</additional_attributes></element><element><id>Relation</id><coordinates><x>1296</x><y>27</y><w>1071</w><h>1269</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;1120;10;1130;1390;440;1390;440;1190</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1206</x><y>1431</y><w>189</w><h>99</h></coordinates><panel_attributes>&lt;&lt;enumeration&gt;&gt;
 Index
 --
 H-INDEX
@@ -216,8 +216,7 @@ I10-INDEX
 --
 +calculate(List&lt;Int&gt; args): Int
 +getName(): String
-+getValue(): int
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>312</x><y>426</y><w>72</w><h>102</h></coordinates><panel_attributes>&lt;&lt;enumeration&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>468</x><y>639</y><w>108</w><h>153</h></coordinates><panel_attributes>&lt;&lt;enumeration&gt;&gt;
 SearchType
 --
 RESEARCH_FIELD
@@ -228,31 +227,29 @@ YEAR
 AFFILIATION
 ABSTRACT
 --
-+toParam(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>378</x><y>414</y><w>96</w><h>72</h></coordinates><panel_attributes>lt=&lt;-
-&lt; use</panel_attributes><additional_attributes>10;100;140;100;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>678</x><y>396</y><w>150</w><h>540</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;440;230;440;230;880</additional_attributes></element><element><id>UMLClass</id><coordinates><x>864</x><y>66</y><w>162</w><h>18</h></coordinates><panel_attributes>org.apache.commons.validator.EmailValidator
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>960</x><y>78</y><w>114</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
-use ^</panel_attributes><additional_attributes>10;10;10;40;170;40</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1056</x><y>36</y><w>258</w><h>162</h></coordinates><panel_attributes>userUtils</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1062</x><y>60</y><w>108</w><h>60</h></coordinates><panel_attributes>Email
++toParam(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>567</x><y>621</y><w>144</w><h>108</h></coordinates><panel_attributes>lt=&lt;-
+&lt; use</panel_attributes><additional_attributes>10;100;140;100;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1017</x><y>594</y><w>225</w><h>810</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;440;230;440;230;880</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1296</x><y>99</y><w>243</w><h>27</h></coordinates><panel_attributes>org.apache.commons.validator.EmailValidator
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1440</x><y>117</y><w>171</w><h>54</h></coordinates><panel_attributes>lt=&lt;-
+use ^</panel_attributes><additional_attributes>10;10;10;40;170;40</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1584</x><y>54</y><w>387</w><h>243</h></coordinates><panel_attributes>userUtils</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1593</x><y>90</y><w>162</w><h>90</h></coordinates><panel_attributes>Email
 --
 -mail: String
 --
 +set(mail:String):boolean
 +get(): String
--validate(mail: String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>996</x><y>132</y><w>72</w><h>162</h></coordinates><panel_attributes>lt=.&gt;
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;250;10;10;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1182</x><y>60</y><w>126</w><h>60</h></coordinates><panel_attributes>Password
+-validate(mail: String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1494</x><y>198</y><w>108</w><h>243</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;250;10;10;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1773</x><y>90</y><w>189</w><h>90</h></coordinates><panel_attributes>Password
 --
 -password: String
 --
 +set(password:String):boolean
 +get(): String
--validate(password: String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1356</x><y>60</y><w>84</w><h>18</h></coordinates><panel_attributes>java.util.regex.Matcher
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1356</x><y>84</y><w>84</w><h>18</h></coordinates><panel_attributes>java.util.regex.Pattern</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1302</x><y>54</y><w>66</w><h>24</h></coordinates><panel_attributes>lt=&lt;-
-   use &gt;</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1302</x><y>84</y><w>66</w><h>24</h></coordinates><panel_attributes>lt=&lt;-
-   use &gt;</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>522</y><w>48</w><h>168</h></coordinates><panel_attributes>lt=.&gt;
+-validate(password: String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2034</x><y>90</y><w>126</w><h>27</h></coordinates><panel_attributes>java.util.regex.Matcher
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2034</x><y>126</y><w>126</w><h>27</h></coordinates><panel_attributes>java.util.regex.Pattern</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1953</x><y>81</y><w>99</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+   use &gt;</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1953</x><y>126</y><w>99</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+   use &gt;</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>783</y><w>72</w><h>252</h></coordinates><panel_attributes>lt=.&gt;
 
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;260;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>378</x><y>468</y><w>186</w><h>216</h></coordinates><panel_attributes>lt=.&gt;
-
-
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;260;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>567</x><y>702</y><w>279</w><h>324</h></coordinates><panel_attributes>lt=.&gt;
 
 
 
@@ -260,16 +257,18 @@ use ^</panel_attributes><additional_attributes>10;10;10;40;170;40</additional_at
 
 
 
-&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>240;340;240;50;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1062</x><y>144</y><w>108</w><h>48</h></coordinates><panel_attributes>InvalidEmailSyntaxException
+
+
+&lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>240;340;240;50;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1593</x><y>216</y><w>162</w><h>72</h></coordinates><panel_attributes>InvalidEmailSyntaxException
 --
 -message: String
 --
 +getMessage(): String
-+toString(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1182</x><y>144</y><w>120</w><h>48</h></coordinates><panel_attributes>InvalidPasswordSyntaxException
++toString(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1773</x><y>216</y><w>180</w><h>72</h></coordinates><panel_attributes>InvalidPasswordSyntaxException
 --
 -message: String
 --
 +getMessage(): String
-+toString(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1140</x><y>222</y><w>78</w><h>18</h></coordinates><panel_attributes>java.io.IOException</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1182</x><y>186</y><w>36</w><h>48</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;60;40;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1146</x><y>186</y><w>36</w><h>48</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>40;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1110</x><y>114</y><w>36</w><h>42</h></coordinates><panel_attributes>lt=&lt;-
-use v</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1236</x><y>114</y><w>36</w><h>42</h></coordinates><panel_attributes>lt=&lt;-
++toString(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1710</x><y>333</y><w>117</w><h>27</h></coordinates><panel_attributes>java.io.IOException</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1773</x><y>279</y><w>54</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;60;40;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1719</x><y>279</y><w>54</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>40;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1665</x><y>171</y><w>54</w><h>63</h></coordinates><panel_attributes>lt=&lt;-
+use v</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1854</x><y>171</y><w>54</w><h>63</h></coordinates><panel_attributes>lt=&lt;-
 use v</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element></diagram>
