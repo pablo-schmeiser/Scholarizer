@@ -145,7 +145,7 @@ NavItem
 m1=1
 m2=1..*</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>2180</x><y>1270</y><w>80</w><h>20</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2170</x><y>1295</y><w>20</w><h>65</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1765</x><y>1270</y><w>20</w><h>65</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=1</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>2035</x><y>1270</y><w>60</w><h>20</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
@@ -266,7 +266,7 @@ RecommendedPage
 --
 
 --
-+RecommendedResults()
++recommendedResults()
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>1540</y><w>95</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 RecommendedContainer
@@ -480,9 +480,9 @@ ProfileData
 m1=1
 m2=1</panel_attributes><additional_attributes>40;10;40;260;10;260</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2205</x><y>1845</y><w>80</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 CompareButton
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2170</x><y>1740</y><w>45</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1765</x><y>1715</y><w>450</w><h>165</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;250;70;250</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2190</x><y>1780</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;820;300;880;300</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2190</x><y>1780</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 FollowButton
 --</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1060</x><y>905</y><w>25</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
@@ -520,7 +520,7 @@ m2=1..*</panel_attributes><additional_attributes>150;10;10;10;10;120</additional
 m1=1
 m2=1
 
-</panel_attributes><additional_attributes>340;20;10;20;10;130</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>175</x><y>680</y><w>1585</w><h>1640</h></coordinates><panel_attributes>Pages</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>120</x><y>575</y><w>2560</w><h>1845</h></coordinates><panel_attributes>Components</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1390</x><y>355</y><w>40</w><h>240</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>340;20;10;20;10;130</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>175</x><y>655</y><w>1595</w><h>1640</h></coordinates><panel_attributes>Pages</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>120</x><y>575</y><w>2560</w><h>1845</h></coordinates><panel_attributes>Components</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1390</x><y>355</y><w>40</w><h>240</h></coordinates><panel_attributes>lt=&lt;.
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;460;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>235</x><y>1070</y><w>105</w><h>40</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 AddAuthorButton
 --
