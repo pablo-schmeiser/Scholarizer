@@ -192,7 +192,7 @@ stores ^</panel_attributes><additional_attributes>10;120;10;10</additional_attri
 --
 #delete(follow: FollowEntity): boolean
 #create(follow: FollowEntity): boolean
-#findByOID(id: long): BookmarkEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2016</x><y>504</y><w>72</w><h>162</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+#findByOID(id: long): FollowEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2016</x><y>504</y><w>72</w><h>162</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 m2=0..*
 stores ^</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2016</x><y>765</y><w>72</w><h>171</h></coordinates><panel_attributes>lt=.&gt;
