@@ -92,7 +92,7 @@ m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes
 -citations: int
 -nonSelfCitations: int
 -noCoAuthorsCitations: int
--indices: List&lt;int&gt;
+-indices: List&lt;Integer&gt;
 --</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1125</x><y>594</y><w>27</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>963</x><y>594</y><w>27</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>1251</x><y>54</y><w>72</w><h>360</h></coordinates><panel_attributes>lt=&lt;.
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;380;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1215</x><y>0</y><w>90</w><h>63</h></coordinates><panel_attributes>controllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>810</y><w>72</w><h>234</h></coordinates><panel_attributes>lt=.&gt;
 &lt;&lt;import&gt;&gt;</panel_attributes><additional_attributes>10;10;10;240</additional_attributes></element><element><id>UMLNote</id><coordinates><x>468</x><y>468</y><w>126</w><h>63</h></coordinates><panel_attributes>JSONObjet is read and
