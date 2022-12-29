@@ -233,7 +233,7 @@ ABSTRACT
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1440</x><y>117</y><w>171</w><h>54</h></coordinates><panel_attributes>lt=&lt;-
 use ^</panel_attributes><additional_attributes>10;10;10;40;170;40</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1584</x><y>54</y><w>387</w><h>243</h></coordinates><panel_attributes>userUtils</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1593</x><y>90</y><w>162</w><h>90</h></coordinates><panel_attributes>Email
 --
--emailaddress: String
+-emailAddress: String
 --
 +set(mail:String):boolean
 +get(): String
