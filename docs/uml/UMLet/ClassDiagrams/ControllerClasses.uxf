@@ -26,18 +26,19 @@ _-parser: SearchParser {readOnly}_
 --
 
 --
-+getRecommendations(uid long): List&lt;SearchEntity&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>880</y><w>410</w><h>180</h></coordinates><panel_attributes>ProfileController
++getRecommendations(uid long): List&lt;SearchEntity&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>880</y><w>410</w><h>190</h></coordinates><panel_attributes>ProfileController
 {RestController}
 --
 
 --
 +createAccount(email: String, pwd: String, interests: String[]): boolean
 +login(email: String, pwd: String): boolean
-
 +changeEmail(newEmail: String, pwd: String, uid: long): boolean
 +changePassword(newPwd: String, pwd: String, uid: long): boolean
 +changeInterests(interests: List&lt;String&gt;, uid: long): boolean
-+deleteAccount(pwd: String, uid: long): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>100</y><w>670</w><h>980</h></coordinates><panel_attributes>controllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>760</x><y>670</y><w>320</w><h>30</h></coordinates><panel_attributes>model.springEntities.bookmarks::BookmarkRepository</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>670</y><w>430</w><h>50</h></coordinates><panel_attributes>lt=-
+
++deleteAccount(pwd: String, uid: long): boolean
++getProfile(uid: long): UserEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>100</y><w>670</w><h>990</h></coordinates><panel_attributes>controllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>760</x><y>670</y><w>320</w><h>30</h></coordinates><panel_attributes>model.springEntities.bookmarks::BookmarkRepository</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>670</y><w>430</w><h>50</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=0..*
 use &gt;</panel_attributes><additional_attributes>10;20;410;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>490</y><w>330</w><h>110</h></coordinates><panel_attributes>FollowController
