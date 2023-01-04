@@ -29,8 +29,8 @@ Button
 - children: Button[]
 
 --
-#Operation(i: int): int
-/+AbstractOperation()/
+#operation(i: int): int
+/+abstractOperation()/
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>3492</x><y>1656</y><w>189</w><h>72</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 Profile
 --
@@ -51,21 +51,21 @@ LandingPage
 --
 - searchBar: SearchBar
 --
-+Home()
++LandingPage()
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>279</x><y>54</y><w>189</w><h>171</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 SearchResultsPage
 --
 
 --
-+SearchResults()
++SearchResultsPage()
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>54</y><w>189</w><h>171</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 AuthorProfilePage
 --
 
 --
-+ProfilePage()
++AuthorProfilePage()
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>36</x><y>288</y><w>189</w><h>171</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 UserProfilePage
@@ -110,7 +110,7 @@ view.pages.UserProfilePage
 --
 
 --
-+UserProfilePage()
++userProfilePage()
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2115</x><y>2259</y><w>243</w><h>135</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 UserProfileTable
@@ -175,7 +175,7 @@ m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attribute
 m1=1
 m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>1935</x><y>2079</y><w>180</w><h>603</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>180;640;80;640;70;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1881</x><y>2115</y><w>36</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>180;640;80;640;80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1881</x><y>2115</y><w>36</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=1</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element><element><id>Relation</id><coordinates><x>1890</x><y>2340</y><w>36</w><h>171</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
@@ -204,7 +204,7 @@ LandingPage
 --
 
 --
-+Home()
++home()
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1053</x><y>2196</y><w>171</w><h>72</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 HomeContainer
@@ -232,7 +232,7 @@ SearchResultsPage
 --
 
 --
-+SearchResults()
++searchResults()
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1917</x><y>1431</y><w>171</w><h>72</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
 ResultsContainer
@@ -254,7 +254,7 @@ LandingPage
 --
 - searchBar: SearchBar
 --
-+Home()
++LandingPage()
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2403</x><y>441</y><w>36</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
@@ -284,7 +284,7 @@ SignUpPage
 --
 
 --
-+signUpPage()
++SignUpPage()
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>2322</x><y>1386</y><w>540</w><h>432</h></coordinates><panel_attributes>SignUpPage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2358</x><y>1449</y><w>189</w><h>99</h></coordinates><panel_attributes>&lt;&lt;JavaScript&gt;&gt;
 SignUpPage
@@ -337,7 +337,7 @@ AuthorContentTab
 --
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2394</x><y>3078</y><w>162</w><h>576</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;610;60;610;70;10;160;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2628</x><y>3114</y><w>36</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>10;610;60;610;60;10;160;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2628</x><y>3114</y><w>36</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>1818</x><y>3096</y><w>36</w><h>144</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
@@ -399,7 +399,7 @@ PublicationItem
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2916</x><y>3789</y><w>36</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>3726</x><y>2511</y><w>126</w><h>81</h></coordinates><panel_attributes>&lt;&lt;JavaScript Object&gt;&gt;
-SignUp/LoginButton
+SignUpLoginButton
 --
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>3798</x><y>2331</y><w>36</w><h>198</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
