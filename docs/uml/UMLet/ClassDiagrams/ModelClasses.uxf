@@ -201,7 +201,7 @@ stores ^</panel_attributes><additional_attributes>10;160;10;10</additional_attri
 --
 
 --
-+getCompareData(query: String): List&lt;AuthorEntity&gt;
++getCompareData(query: String): AuthorEntity
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>104</x><y>536</y><w>200</w><h>48</h></coordinates><panel_attributes>Does a standart API call but uses different
 formatting for data so that there are no 
 additional calculationos needed</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>192</x><y>576</y><w>24</w><h>88</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>344</x><y>664</y><w>80</w><h>32</h></coordinates><panel_attributes>lt=.&gt;
